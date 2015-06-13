@@ -103,7 +103,9 @@ public class PlayerController : MonoBehaviour {
 	private void FallFaster() {
 		//Add additional gravitational force
 		//subtract gravity, so that a 2x multiplier just ads on one mroe lot of gravity.
-		m_Body.AddForce ((Physics.gravity * m_GravityMultiplier) - Physics.gravity); 
+		if (!m_Anim.GetBool ("Attack") || m_Body.velocity.y > 0) { //less gravity during attack, only when falling while attacking
+			m_Body.AddForce ((Physics.gravity * m_GravityMultiplier) - Physics.gravity); 
+		}
 	}
 
 	private void HandleJump(bool jump) {
@@ -122,10 +124,6 @@ public class PlayerController : MonoBehaviour {
 			m_Anim.SetFloat ("Jump", m_Body.velocity.y);
 		} else {
 			m_Anim.SetFloat ("Jump", 0f);
-		}
-	
-		if(Input.GetButtonDown ("Attack")) {
-			m_Anim.SetTrigger ("Attack");
 		}
 	}
 
@@ -172,9 +170,14 @@ public class PlayerController : MonoBehaviour {
 //
 //		}
 
-		if (m_IsGrounded) {
+		if (m_IsGrounded && !m_Anim.GetBool("Attack")) {
 			Vector3 velocity = m_Anim.deltaPosition / Time.deltaTime;
 			velocity.y = m_Body.velocity.y;
+
+//			if(m_Anim.GetBool("Attack")) {
+//				velocity.x += m_Body.velocity.x;
+//				velocity.z += m_Body.velocity.z;
+//			}
 
 			m_Body.velocity = velocity;
 		}
