@@ -36,7 +36,7 @@ public class TailMotion : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float turn = m_Animator.GetFloat ("Turn");
-		Debug.Log(turn);
+//		Debug.Log(turn);
 		
 		for (int i = 0; i < m_Tail.Length; i++) {
 			if (turn < 0) {
@@ -54,7 +54,7 @@ public class TailMotion : MonoBehaviour {
 
 	void OnAnimatorMove() {
 
-		Debug.Log (m_Animator.deltaRotation);
+//		Debug.Log (m_Animator.deltaRotation);
 
 
 //		Vector3 right = m_Tail [0].TransformDirection (Vector3.right);

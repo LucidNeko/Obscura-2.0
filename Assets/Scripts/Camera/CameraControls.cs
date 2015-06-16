@@ -29,38 +29,39 @@ public class CameraControls : MonoBehaviour {
 		transform.localPosition = m_DefaultPosition;
 	}
 
-	public void LookAt(Transform target, float duration) {
-		StartCoroutine(LookAtCoroutine(target, duration));
+	public void LookAt(Transform target, float height, float duration) {
+		StartCoroutine(LookAtCoroutine(target, height, duration));
 	}
 
-	public IEnumerator LookAtCoroutine(Transform target, float duration) {
-//		Transform oldTarget = m_Rig.m_Target;
-//		m_Rig.m_Target = target;
-//		yield return new WaitForSeconds (duration);
-//		m_Rig.m_Target = oldTarget;
-//		Quaternion oldRotation = transform.rotation;
-//		transform.LookAt (target.position);
-//		Quaternion rotationTarget = transform.rotation;
-//		transform.rotation = oldRotation;
-		Quaternion firstRotation = transform.rotation;
-		Vector3 firstPosition = transform.position;
+	public IEnumerator LookAtCoroutine(Transform target, float height, float duration) {
+		Quaternion firstRotation = transform.localRotation;
+		Vector3 firstPosition = transform.localPosition;
+
 		m_Rig.enabled = false;
 		float time = 0f;
 		do {
-			transform.position = Vector3.Lerp(transform.position, transform.position + Vector3.up*0.5f, 0.05f);
-
+			transform.position = Vector3.Lerp(transform.position, transform.position + Vector3.up*height, 0.05f);
+			
 			Quaternion oldRotation = transform.rotation;
 			transform.LookAt (target.position);
 			Quaternion rotationTarget = transform.rotation;
 			transform.rotation = oldRotation;
-
+			
 			transform.rotation = Quaternion.Slerp(transform.rotation, rotationTarget, 0.05f);
-//			transform.LookAt(target.position);
 			yield return null;
 		} while((time += Time.deltaTime) < duration);
-		transform.position = firstPosition;
-		transform.rotation = firstRotation;
+
 		m_Rig.enabled = true;
+
+		time = 0f;
+		do {
+			transform.localPosition = Vector3.Lerp(transform.localPosition, firstPosition, 0.1f);
+			transform.localRotation = Quaternion.Slerp(transform.localRotation, firstRotation, 0.1f);
+			yield return null;
+		} while((time += Time.deltaTime) < duration/2f);
+		
+		transform.localPosition = firstPosition;
+		transform.localRotation = firstRotation;
 
 
 	}
