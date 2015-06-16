@@ -393,13 +393,6 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
---- !u!81 &1828326974
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1828326969}
-  m_Enabled: 1
 --- !u!1001 &1842859255
 Prefab:
   m_ObjectHideFlags: 0
