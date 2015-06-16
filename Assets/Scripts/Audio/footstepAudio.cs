@@ -2,22 +2,19 @@
 using System.Collections;
 
 
+[RequireComponent(typeof(AudioSource))]
 
 public class footstepAudio : MonoBehaviour {
 
-	public AudioSource source;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	AudioSource source; // The audio source that will play the footsteps.
+
+	void Start(){
+		source = GetComponent<AudioSource> (); // Get the audio source object.
 	}
 
 	void OnTriggerEnter(Collider other){
-		source.Play();
+
+		source.Play(); // Tell the audio source to play the clip.
 	}
 }
