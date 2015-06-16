@@ -492,6 +492,7 @@ GameObject:
   - 33: {fileID: 1267254969}
   - 65: {fileID: 1267254968}
   - 23: {fileID: 1267254967}
+  - 114: {fileID: 1267254970}
   m_Layer: 0
   m_Name: Cube 2
   m_TagString: Untagged
@@ -554,6 +555,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1267254965}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1267254970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1267254965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc978f6a529b34ccab9e2e4af28aad18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1383156257
 GameObject:
   m_ObjectHideFlags: 0

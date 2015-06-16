@@ -958,6 +958,7 @@ MonoBehaviour:
   m_NumRotations: 3
   m_Duration: .75
   m_ForwardForce: 3
+  m_UpwardForce: 7
 --- !u!114 &11491622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -975,7 +976,7 @@ SphereCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112912}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 1b8fdc2612e46e74f85871110158bb55, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -987,7 +988,7 @@ SphereCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191874}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 1b8fdc2612e46e74f85871110158bb55, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1012,7 +1013,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 182322}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 1b8fdc2612e46e74f85871110158bb55, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: .170000002

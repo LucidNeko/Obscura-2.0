@@ -6,6 +6,7 @@ public class SpinAttack : MonoBehaviour {
 	public float m_NumRotations = 2;
 	public float m_Duration = 0.5f; //seconds
 	public float m_ForwardForce = 5f;
+	public float m_UpwardForce = 7f;
 
 	private bool m_IsAttacking = false;
 	private Rigidbody m_RigidBody;
@@ -30,7 +31,7 @@ public class SpinAttack : MonoBehaviour {
 		float time = 0;
 
 		m_RigidBody.AddForce (m_RigidBody.transform.forward * m_ForwardForce, ForceMode.Impulse);
-//		m_RigidBody.AddForce (Vector3.up * m_ForwardForce, ForceMode.Impulse);
+		m_RigidBody.AddForce (Vector3.up * m_UpwardForce, ForceMode.VelocityChange);
 
 		Vector3 start = m_RigidBody.transform.eulerAngles;
 		Vector3 end = new Vector3 (start.x, start.y + 360 * m_NumRotations, start.z);

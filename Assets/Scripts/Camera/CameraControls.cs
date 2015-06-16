@@ -4,9 +4,11 @@ using System.Collections;
 public class CameraControls : MonoBehaviour {
 
 	private Vector3 m_DefaultPosition;
+	private TrackingCameraRig m_Rig;
 
 	public void Awake() {
 		m_DefaultPosition = transform.localPosition;
+		m_Rig = transform.parent.parent.GetComponent<TrackingCameraRig> ();
 	}
 
 	public void Shake(float intensity, float duration) {
@@ -26,4 +28,42 @@ public class CameraControls : MonoBehaviour {
 		}
 		transform.localPosition = m_DefaultPosition;
 	}
+
+	public void LookAt(Transform target, float duration) {
+		StartCoroutine(LookAtCoroutine(target, duration));
+	}
+
+	public IEnumerator LookAtCoroutine(Transform target, float duration) {
+//		Transform oldTarget = m_Rig.m_Target;
+//		m_Rig.m_Target = target;
+//		yield return new WaitForSeconds (duration);
+//		m_Rig.m_Target = oldTarget;
+//		Quaternion oldRotation = transform.rotation;
+//		transform.LookAt (target.position);
+//		Quaternion rotationTarget = transform.rotation;
+//		transform.rotation = oldRotation;
+		Quaternion firstRotation = transform.rotation;
+		Vector3 firstPosition = transform.position;
+		m_Rig.enabled = false;
+		float time = 0f;
+		do {
+			transform.position = Vector3.Lerp(transform.position, transform.position + Vector3.up*0.5f, 0.05f);
+
+			Quaternion oldRotation = transform.rotation;
+			transform.LookAt (target.position);
+			Quaternion rotationTarget = transform.rotation;
+			transform.rotation = oldRotation;
+
+			transform.rotation = Quaternion.Slerp(transform.rotation, rotationTarget, 0.05f);
+//			transform.LookAt(target.position);
+			yield return null;
+		} while((time += Time.deltaTime) < duration);
+		transform.position = firstPosition;
+		transform.rotation = firstRotation;
+		m_Rig.enabled = true;
+
+
+	}
+
+
 }
