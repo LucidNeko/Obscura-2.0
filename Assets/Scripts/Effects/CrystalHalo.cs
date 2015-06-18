@@ -27,7 +27,7 @@ public class CrystalHalo : MonoBehaviour {
 	void Update () {
 		if (glowIncr) {
 			if(lightCenter.intensity < maxGlow){
-				lightCenter.intensity+=0.2f;
+				lightCenter.intensity+=0.1f;
 			}
 			else{
 				glowIncr = false;
@@ -44,6 +44,5 @@ public class CrystalHalo : MonoBehaviour {
 
 			}
 		}
-		print (lightCenter.intensity);
 	}
 }

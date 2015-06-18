@@ -44,6 +44,7 @@ GameObject:
   - 23: {fileID: 2372564}
   - 95: {fileID: 9552156}
   - 114: {fileID: 11416112}
+  - 111: {fileID: 11142176}
   m_Layer: 0
   m_Name: crystalshard
   m_TagString: Untagged
@@ -110,7 +111,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.7326431, y: 4.4477787, z: -2.74618435}
+  m_LocalPosition: {x: 28.7700005, y: .708999991, z: 25.0849991}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 424774}
@@ -209,7 +210,7 @@ Light:
   m_Type: 2
   m_Color: {r: .400000036, g: 0, b: .952941239, a: 1}
   m_Intensity: 1
-  m_Range: .25
+  m_Range: .349999994
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -241,7 +242,7 @@ Light:
   m_Type: 2
   m_Color: {r: .400000036, g: 0, b: .952941239, a: 1}
   m_Intensity: 1
-  m_Range: .25
+  m_Range: .349999994
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -262,6 +263,20 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!111 &11142176
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131040}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &11416112
 MonoBehaviour:
   m_ObjectHideFlags: 1
