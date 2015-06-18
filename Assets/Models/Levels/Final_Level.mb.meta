@@ -122,6 +122,13 @@ ModelImporter:
     100228: Wall_platform_6
     100230: Wall_Platforms_2
     100232: Walls
+    100234: polySurface102
+    100236: polySurface102 1
+    100238: polySurface103
+    100240: polySurface104
+    100242: transform34
+    100244: transform35
+    100246: transform36
     400000: Alter_Pillar_1
     400002: Alter_Pillar_2
     400004: Alter_wall
@@ -239,6 +246,13 @@ ModelImporter:
     400228: Wall_platform_6
     400230: Wall_Platforms_2
     400232: Walls
+    400234: polySurface102
+    400236: polySurface102 1
+    400238: polySurface103
+    400240: polySurface104
+    400242: transform34
+    400244: transform35
+    400246: transform36
     2300000: Alter_Pillar_1
     2300002: Alter_Pillar_2
     2300004: Alter_wall
@@ -283,6 +297,8 @@ ModelImporter:
     2300082: Wall_platform_5
     2300084: Wall_platform_6
     2300086: Wall_Platforms_2
+    2300088: polySurface102
+    2300090: polySurface104
     3300000: Alter_Pillar_1
     3300002: Alter_Pillar_2
     3300004: Alter_wall
@@ -327,6 +343,8 @@ ModelImporter:
     3300082: Wall_platform_5
     3300084: Wall_platform_6
     3300086: Wall_Platforms_2
+    3300088: polySurface102
+    3300090: polySurface104
     4300000: polySurface16
     4300002: Outer_Wall1
     4300004: Inner_Walls
@@ -371,6 +389,8 @@ ModelImporter:
     4300082: central_stairs1
     4300084: Flame_Holder1
     4300086: Flame_Holder2
+    4300088: polySurface102
+    4300090: polySurface104
     6400000: Alter_Pillar_1
     6400002: Alter_Pillar_2
     6400004: Alter_wall
@@ -415,6 +435,8 @@ ModelImporter:
     6400082: Wall_platform_5
     6400084: Wall_platform_6
     6400086: Wall_Platforms_2
+    6400088: polySurface102
+    6400090: polySurface104
     7400000: Take 001
     9500000: //RootNode
   materials:
