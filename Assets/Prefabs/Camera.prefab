@@ -26,7 +26,6 @@ GameObject:
   - 20: {fileID: 2089046}
   - 92: {fileID: 9291896}
   - 124: {fileID: 12479130}
-  - 81: {fileID: 8154650}
   - 114: {fileID: 11435276}
   m_Layer: 0
   m_Name: Main Camera
@@ -121,13 +120,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
---- !u!81 &8154650
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 129520}
-  m_Enabled: 1
 --- !u!92 &9291896
 Behaviour:
   m_ObjectHideFlags: 1
