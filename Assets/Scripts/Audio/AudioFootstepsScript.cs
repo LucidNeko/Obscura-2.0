@@ -5,14 +5,13 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 
 
-
-public class footstepAudio : MonoBehaviour {
-
-public AudioClip [] clips;
+public class AudioFootstepsScript : MonoBehaviour {
 
 
+	public AudioClip [] clips; // An array of audio clips to alternate between. 
 
 	AudioSource source; // The audio source that will play the footsteps.
+
 
 	void Start(){
 		
@@ -21,7 +20,10 @@ public AudioClip [] clips;
 
 	void OnTriggerEnter(Collider other){
 
-		source.clip = clips[Random.Range(0, 6)];
+		if(clips.Length > 0){
+			source.clip = clips[Random.Range(0, clips.Length - 1)]; // Randomly choose an audio clip from the array.
+		}
+
 		source.Play(); // Tell the audio source to play the clip.
 	}
 }

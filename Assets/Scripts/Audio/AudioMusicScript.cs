@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MusicScript : MonoBehaviour {
+public class AudioMusicScript : MonoBehaviour {
 
+	public AudioSource source;
+	
 	public AudioClip musicTrackHappy;
 	public AudioClip musicTrackSad;
 
-	public AudioSource source;
-
 	public float fadeTime = 5.0F; // Adjusts the time of the fade.
+
+	[Range(0.0F, 0.1F)]
+	public float volume = 0.8F; // Adjusts the volume of the music track.
 
 	public bool changeTrack; // Trigger for changing the track.
 
@@ -16,6 +19,7 @@ public class MusicScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+	
 		StartCoroutine(fadeIn());
 	}
 	
@@ -45,7 +49,7 @@ public class MusicScript : MonoBehaviour {
 	IEnumerator fadeIn(){
 
 		float start = 0.0F;
-		float end = 1.0F;
+		float end = volume;
 		float i = 0.0F;
 		float step = 1.0F/fadeTime;
 		
