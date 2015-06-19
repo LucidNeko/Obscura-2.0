@@ -138,7 +138,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .933823526, g: .510572255, b: .185391441, a: 1}
+        second: {r: 1, g: .559229195, b: .220588207, a: 1}
       data:
         first:
           name: _EmissionColorUI
