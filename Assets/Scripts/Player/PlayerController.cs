@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
 	public float m_JumpForce = 10f;
 	public float m_GravityMultiplier = 4f;
 	public float m_GroundRayLength = 0.2f;
+	public PlayerAudio m_audioScript;
 
 	private Rigidbody m_Body;
 	private Animator m_Anim;
@@ -110,6 +111,7 @@ public class PlayerController : MonoBehaviour {
 
 	private void HandleJump(bool jump) {
 		if (jump && m_IsGrounded && !m_Anim.IsInTransition(m_Anim.GetLayerIndex("Base Layer")) && !m_Anim.GetCurrentAnimatorStateInfo(m_Anim.GetLayerIndex("Base Layer")).IsName("Jump")) {
+			m_audioScript.jump(); // Play jump audio
 			m_Body.velocity = new Vector3(m_Body.velocity.x, m_JumpForce, m_Body.velocity.z);
 			m_IsGrounded = false;
 		}
@@ -136,6 +138,7 @@ public class PlayerController : MonoBehaviour {
 
 	private void FallDamage() {
 		Debug.Log ("ouch");
+		m_audioScript.die(); // Play die audio
 		StartCoroutine (Ouch (2));
 	}
 

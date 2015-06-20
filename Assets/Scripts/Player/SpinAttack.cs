@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(AudioSource))]
+//[RequireComponent(typeof(AudioSource))]
 
 public class SpinAttack : MonoBehaviour {
 	
@@ -9,18 +9,17 @@ public class SpinAttack : MonoBehaviour {
 	public float m_Duration = 0.5f; //seconds
 	public float m_ForwardForce = 5f;
 	public float m_UpwardForce = 7f;
-	
+	public PlayerAudio m_audioScript;
 
 	private bool m_IsAttacking = false;
 	private Rigidbody m_RigidBody;
 	private Animator m_Animator;
-	private AudioSource m_AudioSource;
+
 
 	// Use this for initialization
 	void Start () {
 		m_RigidBody = GetComponent<Rigidbody> ();
 		m_Animator = GetComponent<Animator> ();
-		m_AudioSource = GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -28,7 +27,7 @@ public class SpinAttack : MonoBehaviour {
 		if (!m_IsAttacking && Input.GetButtonDown("Attack")) {
 			m_IsAttacking = true;
 			m_Animator.SetBool("Attack", m_IsAttacking);
-			m_AudioSource.Play();
+			m_audioScript.spin(); // Play Spin Audio
 			StartCoroutine(Spin());
 		}
 	}
