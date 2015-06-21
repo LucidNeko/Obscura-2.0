@@ -401,6 +401,54 @@ ModelImporter:
     4300090: rock5
     4300092: rock_2
     4300094: rock2
+    6400000: Alter_Pillar_1
+    6400002: Alter_Pillar_2
+    6400004: Alter_wall
+    6400006: bolder_spitter_right
+    6400008: Breakable_rock_3
+    6400010: Breakable_rock_4
+    6400012: Central_Area
+    6400014: central_stairs1
+    6400016: Centre_Pillar
+    6400018: End_of_water
+    6400020: Entrance
+    6400022: entrance_door
+    6400024: Flame_Holder1
+    6400026: Flame_Holder2
+    6400028: front_door_left
+    6400030: front_door_right
+    6400032: Inner_Walls
+    6400034: Island
+    6400036: Large_Pillar_1
+    6400038: Large_Pillar_2
+    6400040: Large_Platform_1
+    6400042: Large_Platform_2
+    6400044: outer_layer_door
+    6400046: Outer_Stairs
+    6400048: Outer_Wall1
+    6400050: polySurface102
+    6400052: rock1
+    6400054: rock2
+    6400056: rock3
+    6400058: rock4
+    6400060: rock5
+    6400062: rock_2
+    6400064: Small_Pillar_1
+    6400066: Small_Pillar_2
+    6400068: stair_side_left
+    6400070: stair_side_right
+    6400072: Temporary_Pillar_1
+    6400074: Temporary_Pillar_2
+    6400076: Temporary_Pillar_3
+    6400078: Temporary_Pillar_4
+    6400080: Temporary_Pillar_5
+    6400082: Temporary_Water
+    6400084: Wall_platform_1
+    6400086: Wall_platform_2
+    6400088: Wall_platform_3
+    6400090: Wall_platform_5
+    6400092: Wall_platform_6
+    6400094: Wall_Platforms_2
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -424,7 +472,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
