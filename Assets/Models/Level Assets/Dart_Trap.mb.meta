@@ -42,6 +42,9 @@ ModelImporter:
     4300008: dartbox
     4300010: dartshooter
     4300012: dartframe
+    6400000: dartbox
+    6400002: dartframe
+    6400004: dartshooter
     7400000: DartTrapAttack
     9500000: //RootNode
   materials:
@@ -99,7 +102,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
