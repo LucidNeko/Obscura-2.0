@@ -416,6 +416,59 @@ ModelImporter:
     4300100: polySurface112
     4300102: polySurface113
     4300104: rock6
+    6400000: Alter_Pillar_1
+    6400002: Alter_Pillar_2
+    6400004: Alter_wall
+    6400006: Breakable_rock_3
+    6400008: Breakable_rock_4
+    6400010: Breakable_rock_5
+    6400012: Breakable_rock_6
+    6400014: Breakable_rock_7
+    6400016: Central_Area
+    6400018: central_stairs1
+    6400020: Centre_Pillar
+    6400022: End_of_water
+    6400024: Flame_Holder1
+    6400026: Flame_Holder2
+    6400028: front_door_left
+    6400030: front_door_right
+    6400032: Inner_Walls
+    6400034: Island
+    6400036: Large_Pillar_1
+    6400038: Large_Pillar_2
+    6400040: Large_Platform_1
+    6400042: Large_Platform_2
+    6400044: left_Platforms
+    6400046: outer_layer_door
+    6400048: Outer_Stairs
+    6400050: Outer_Wall1
+    6400052: polySurface104
+    6400054: polySurface105
+    6400056: polySurface106
+    6400058: polySurface107
+    6400060: polySurface110
+    6400062: polySurface111
+    6400064: polySurface112
+    6400066: polySurface113
+    6400068: right_platforms
+    6400070: rock2
+    6400072: rock3
+    6400074: rock4
+    6400076: rock5
+    6400078: rock6
+    6400080: rock_2
+    6400082: Small_Pillar_1
+    6400084: Small_Pillar_2
+    6400086: stair_side_left
+    6400088: stair_side_right
+    6400090: Temporary_Pillar_1
+    6400092: Temporary_Pillar_2
+    6400094: Temporary_Pillar_3
+    6400096: Temporary_Pillar_4
+    6400098: Temporary_Pillar_5
+    6400100: Temporary_Water
+    6400102: Wall_platform_1
+    6400104: Wall_Platforms_2
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -439,7 +492,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
