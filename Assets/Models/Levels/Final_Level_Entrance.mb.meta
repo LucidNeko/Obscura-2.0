@@ -1,20 +1,23 @@
 fileFormatVersion: 2
-guid: c9434e4b5a0424225a15a5dd7c7b3e25
-timeCreated: 1434879624
+guid: bc8fcec8d7625435fb78ccb97cebb9c4
+timeCreated: 1434878694
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: back
-    100002: Island
+    100000: Door
+    100002: Entrance
     100004: //RootNode
-    400000: back
-    400002: Island
+    400000: Door
+    400002: Entrance
     400004: //RootNode
-    2300000: Island
-    3300000: Island
-    4300000: Island
-    6400000: Island
+    2300000: Door
+    2300002: Entrance
+    3300000: Door
+    3300002: Entrance
+    4300000: Entrance
+    4300002: Door
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -37,7 +40,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

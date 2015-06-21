@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 23490d6aba4a14a26927e4daaf497b04
-timeCreated: 1434865409
+timeCreated: 1434876509
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -8,283 +8,267 @@ ModelImporter:
     100000: Alter_Pillar_1
     100002: Alter_Pillar_2
     100004: Alter_wall
-    100006: ambientLight2
-    100008: bolder_spitter_left
-    100010: bolder_spitter_right
-    100012: Breakable_rock_3
-    100014: Breakable_rock_4
+    100006: Breakable_rock_3
+    100008: Breakable_rock_4
+    100010: Breakable_rock_5
+    100012: Breakable_rock_6
+    100014: Breakable_rock_7
     100016: Central_Area
     100018: central_stairs
     100020: central_stairs1
     100022: Centre_Pillar
     100024: End_of_water
-    100026: Entrance
-    100028: entrance_door
-    100030: //RootNode
-    100032: Final_Level_3:transform61
-    100034: Flame_Holder1
-    100036: Flame_Holder2
-    100038: front_door_left
-    100040: front_door_right
-    100042: Group_1:Platform_Set
-    100044: Inner_Walls
-    100046: Island
-    100048: island
-    100050: Large_Pillar_1
-    100052: Large_Pillar_2
-    100054: Large_Platform_1
-    100056: Large_Platform_2
-    100058: Level1
-    100060: outer_layer_door
-    100062: Outer_Stairs
-    100064: Outer_Wall1
-    100066: polySurface102
-    100068: polySurface102 1
-    100070: polySurface103
-    100072: polySurface104
-    100074: polySurface105
-    100076: polySurface106
-    100078: polySurface107
-    100080: polySurface109
-    100082: polySurface67
-    100084: polySurface68
-    100086: polySurface69
-    100088: polySurface70
-    100090: polySurface71
-    100092: polySurface72
-    100094: polySurface73
-    100096: polySurface74
-    100098: polySurface75
-    100100: polySurface76
-    100102: polySurface77
-    100104: polySurface78
-    100106: polySurface79
-    100108: polySurface80
-    100110: polySurface81
-    100112: polySurface82
-    100114: polySurface83
-    100116: polySurface84
-    100118: polySurface85
-    100120: polySurface86
-    100122: polySurface87
-    100124: polySurface88
-    100126: polySurface89
-    100128: polySurface90
-    100130: polySurface91
-    100132: polySurface92
-    100134: polySurface93
-    100136: polySurface94
-    100138: polySurface95
-    100140: polySurface96
-    100142: polySurface97
-    100144: polySurface98
+    100026: //RootNode
+    100028: Final_Level_3:transform61
+    100030: Flame_Holder1
+    100032: Flame_Holder2
+    100034: front_door_left
+    100036: front_door_right
+    100038: Inner_Walls
+    100040: Island
+    100042: island
+    100044: Large_Pillar_1
+    100046: Large_Pillar_2
+    100048: Large_Platform_1
+    100050: Large_Platform_2
+    100052: left_Platforms
+    100054: Level1
+    100056: outer_layer_door
+    100058: Outer_Stairs
+    100060: Outer_Wall1
+    100062: platforms
+    100064: polySurface104
+    100066: polySurface105
+    100068: polySurface106
+    100070: polySurface107
+    100072: polySurface110
+    100074: polySurface111
+    100076: polySurface112
+    100078: polySurface113
+    100080: polySurface67
+    100082: polySurface68
+    100084: polySurface69
+    100086: polySurface70
+    100088: polySurface71
+    100090: polySurface72
+    100092: polySurface73
+    100094: polySurface74
+    100096: polySurface75
+    100098: polySurface76
+    100100: polySurface77
+    100102: polySurface78
+    100104: polySurface79
+    100106: polySurface80
+    100108: polySurface81
+    100110: polySurface82
+    100112: polySurface83
+    100114: polySurface84
+    100116: polySurface85
+    100118: polySurface86
+    100120: polySurface87
+    100122: polySurface88
+    100124: polySurface89
+    100126: polySurface90
+    100128: polySurface91
+    100130: polySurface92
+    100132: polySurface93
+    100134: polySurface94
+    100136: polySurface95
+    100138: polySurface96
+    100140: polySurface97
+    100142: polySurface98
+    100144: right_platforms
     100146: rock2
     100148: rock3
     100150: rock4
     100152: rock5
-    100154: rock_2
-    100156: Small_Pillar_1
-    100158: Small_Pillar_2
-    100160: stair_side_left
-    100162: stair_side_right
-    100164: Temporary_Pillar_1
-    100166: Temporary_Pillar_2
-    100168: Temporary_Pillar_3
-    100170: Temporary_Pillar_4
-    100172: Temporary_Pillar_5
-    100174: Temporary_Water
-    100176: transform1
-    100178: transform10
-    100180: transform11
-    100182: transform12
-    100184: transform13
-    100186: transform14
-    100188: transform15
-    100190: transform16
-    100192: transform17
-    100194: transform18
-    100196: transform19
-    100198: transform2
-    100200: transform20
-    100202: transform21
-    100204: transform22
-    100206: transform23
-    100208: transform24
-    100210: transform25
-    100212: transform26
-    100214: transform27
-    100216: transform28
-    100218: transform29
-    100220: transform3
-    100222: transform30
-    100224: transform31
-    100226: transform32
-    100228: transform33
-    100230: transform34
-    100232: transform35
-    100234: transform36
-    100236: transform37
-    100238: transform4
-    100240: transform5
-    100242: transform6
-    100244: transform7
-    100246: transform8
-    100248: transform9
-    100250: Wall_platform_1
-    100252: Wall_Platforms_2
-    100254: Walls
-    100256: Breakable_rock_5
-    100258: polySurface110
-    100260: polySurface111
-    100262: polySurface112
-    100264: polySurface113
-    100266: polySurface114
+    100154: rock6
+    100156: rock_2
+    100158: Small_Pillar_1
+    100160: Small_Pillar_2
+    100162: stair_side_left
+    100164: stair_side_right
+    100166: Temporary_Pillar_1
+    100168: Temporary_Pillar_2
+    100170: Temporary_Pillar_3
+    100172: Temporary_Pillar_4
+    100174: Temporary_Pillar_5
+    100176: Temporary_Water
+    100178: transform1
+    100180: transform10
+    100182: transform11
+    100184: transform12
+    100186: transform13
+    100188: transform14
+    100190: transform15
+    100192: transform16
+    100194: transform17
+    100196: transform18
+    100198: transform19
+    100200: transform2
+    100202: transform20
+    100204: transform21
+    100206: transform22
+    100208: transform23
+    100210: transform24
+    100212: transform25
+    100214: transform26
+    100216: transform27
+    100218: transform28
+    100220: transform29
+    100222: transform3
+    100224: transform30
+    100226: transform31
+    100228: transform32
+    100230: transform33
+    100232: transform37
+    100234: transform4
+    100236: transform5
+    100238: transform6
+    100240: transform7
+    100242: transform8
+    100244: transform9
+    100246: Wall_platform_1
+    100248: Wall_Platforms_2
+    100250: Walls
     400000: Alter_Pillar_1
     400002: Alter_Pillar_2
     400004: Alter_wall
-    400006: ambientLight2
-    400008: bolder_spitter_left
-    400010: bolder_spitter_right
-    400012: Breakable_rock_3
-    400014: Breakable_rock_4
+    400006: Breakable_rock_3
+    400008: Breakable_rock_4
+    400010: Breakable_rock_5
+    400012: Breakable_rock_6
+    400014: Breakable_rock_7
     400016: Central_Area
     400018: central_stairs
     400020: central_stairs1
     400022: Centre_Pillar
     400024: End_of_water
-    400026: Entrance
-    400028: entrance_door
-    400030: //RootNode
-    400032: Final_Level_3:transform61
-    400034: Flame_Holder1
-    400036: Flame_Holder2
-    400038: front_door_left
-    400040: front_door_right
-    400042: Group_1:Platform_Set
-    400044: Inner_Walls
-    400046: Island
-    400048: island
-    400050: Large_Pillar_1
-    400052: Large_Pillar_2
-    400054: Large_Platform_1
-    400056: Large_Platform_2
-    400058: Level1
-    400060: outer_layer_door
-    400062: Outer_Stairs
-    400064: Outer_Wall1
-    400066: polySurface102
-    400068: polySurface102 1
-    400070: polySurface103
-    400072: polySurface104
-    400074: polySurface105
-    400076: polySurface106
-    400078: polySurface107
-    400080: polySurface109
-    400082: polySurface67
-    400084: polySurface68
-    400086: polySurface69
-    400088: polySurface70
-    400090: polySurface71
-    400092: polySurface72
-    400094: polySurface73
-    400096: polySurface74
-    400098: polySurface75
-    400100: polySurface76
-    400102: polySurface77
-    400104: polySurface78
-    400106: polySurface79
-    400108: polySurface80
-    400110: polySurface81
-    400112: polySurface82
-    400114: polySurface83
-    400116: polySurface84
-    400118: polySurface85
-    400120: polySurface86
-    400122: polySurface87
-    400124: polySurface88
-    400126: polySurface89
-    400128: polySurface90
-    400130: polySurface91
-    400132: polySurface92
-    400134: polySurface93
-    400136: polySurface94
-    400138: polySurface95
-    400140: polySurface96
-    400142: polySurface97
-    400144: polySurface98
+    400026: //RootNode
+    400028: Final_Level_3:transform61
+    400030: Flame_Holder1
+    400032: Flame_Holder2
+    400034: front_door_left
+    400036: front_door_right
+    400038: Inner_Walls
+    400040: Island
+    400042: island
+    400044: Large_Pillar_1
+    400046: Large_Pillar_2
+    400048: Large_Platform_1
+    400050: Large_Platform_2
+    400052: left_Platforms
+    400054: Level1
+    400056: outer_layer_door
+    400058: Outer_Stairs
+    400060: Outer_Wall1
+    400062: platforms
+    400064: polySurface104
+    400066: polySurface105
+    400068: polySurface106
+    400070: polySurface107
+    400072: polySurface110
+    400074: polySurface111
+    400076: polySurface112
+    400078: polySurface113
+    400080: polySurface67
+    400082: polySurface68
+    400084: polySurface69
+    400086: polySurface70
+    400088: polySurface71
+    400090: polySurface72
+    400092: polySurface73
+    400094: polySurface74
+    400096: polySurface75
+    400098: polySurface76
+    400100: polySurface77
+    400102: polySurface78
+    400104: polySurface79
+    400106: polySurface80
+    400108: polySurface81
+    400110: polySurface82
+    400112: polySurface83
+    400114: polySurface84
+    400116: polySurface85
+    400118: polySurface86
+    400120: polySurface87
+    400122: polySurface88
+    400124: polySurface89
+    400126: polySurface90
+    400128: polySurface91
+    400130: polySurface92
+    400132: polySurface93
+    400134: polySurface94
+    400136: polySurface95
+    400138: polySurface96
+    400140: polySurface97
+    400142: polySurface98
+    400144: right_platforms
     400146: rock2
     400148: rock3
     400150: rock4
     400152: rock5
-    400154: rock_2
-    400156: Small_Pillar_1
-    400158: Small_Pillar_2
-    400160: stair_side_left
-    400162: stair_side_right
-    400164: Temporary_Pillar_1
-    400166: Temporary_Pillar_2
-    400168: Temporary_Pillar_3
-    400170: Temporary_Pillar_4
-    400172: Temporary_Pillar_5
-    400174: Temporary_Water
-    400176: transform1
-    400178: transform10
-    400180: transform11
-    400182: transform12
-    400184: transform13
-    400186: transform14
-    400188: transform15
-    400190: transform16
-    400192: transform17
-    400194: transform18
-    400196: transform19
-    400198: transform2
-    400200: transform20
-    400202: transform21
-    400204: transform22
-    400206: transform23
-    400208: transform24
-    400210: transform25
-    400212: transform26
-    400214: transform27
-    400216: transform28
-    400218: transform29
-    400220: transform3
-    400222: transform30
-    400224: transform31
-    400226: transform32
-    400228: transform33
-    400230: transform34
-    400232: transform35
-    400234: transform36
-    400236: transform37
-    400238: transform4
-    400240: transform5
-    400242: transform6
-    400244: transform7
-    400246: transform8
-    400248: transform9
-    400250: Wall_platform_1
-    400252: Wall_Platforms_2
-    400254: Walls
-    400256: Breakable_rock_5
-    400258: polySurface110
-    400260: polySurface111
-    400262: polySurface112
-    400264: polySurface113
-    400266: polySurface114
+    400154: rock6
+    400156: rock_2
+    400158: Small_Pillar_1
+    400160: Small_Pillar_2
+    400162: stair_side_left
+    400164: stair_side_right
+    400166: Temporary_Pillar_1
+    400168: Temporary_Pillar_2
+    400170: Temporary_Pillar_3
+    400172: Temporary_Pillar_4
+    400174: Temporary_Pillar_5
+    400176: Temporary_Water
+    400178: transform1
+    400180: transform10
+    400182: transform11
+    400184: transform12
+    400186: transform13
+    400188: transform14
+    400190: transform15
+    400192: transform16
+    400194: transform17
+    400196: transform18
+    400198: transform19
+    400200: transform2
+    400202: transform20
+    400204: transform21
+    400206: transform22
+    400208: transform23
+    400210: transform24
+    400212: transform25
+    400214: transform26
+    400216: transform27
+    400218: transform28
+    400220: transform29
+    400222: transform3
+    400224: transform30
+    400226: transform31
+    400228: transform32
+    400230: transform33
+    400232: transform37
+    400234: transform4
+    400236: transform5
+    400238: transform6
+    400240: transform7
+    400242: transform8
+    400244: transform9
+    400246: Wall_platform_1
+    400248: Wall_Platforms_2
+    400250: Walls
     2300000: Alter_Pillar_1
     2300002: Alter_Pillar_2
     2300004: Alter_wall
-    2300006: bolder_spitter_right
-    2300008: Breakable_rock_3
-    2300010: Breakable_rock_4
-    2300012: Central_Area
-    2300014: central_stairs1
-    2300016: Centre_Pillar
-    2300018: End_of_water
-    2300020: Entrance
-    2300022: entrance_door
+    2300006: Breakable_rock_3
+    2300008: Breakable_rock_4
+    2300010: Breakable_rock_5
+    2300012: Breakable_rock_6
+    2300014: Breakable_rock_7
+    2300016: Central_Area
+    2300018: central_stairs1
+    2300020: Centre_Pillar
+    2300022: End_of_water
     2300024: Flame_Holder1
     2300026: Flame_Holder2
     2300028: front_door_left
@@ -295,50 +279,49 @@ ModelImporter:
     2300038: Large_Pillar_2
     2300040: Large_Platform_1
     2300042: Large_Platform_2
-    2300044: outer_layer_door
-    2300046: Outer_Stairs
-    2300048: Outer_Wall1
-    2300050: polySurface102
+    2300044: left_Platforms
+    2300046: outer_layer_door
+    2300048: Outer_Stairs
+    2300050: Outer_Wall1
     2300052: polySurface104
     2300054: polySurface105
     2300056: polySurface106
     2300058: polySurface107
-    2300060: polySurface109
-    2300062: rock2
-    2300064: rock3
-    2300066: rock4
-    2300068: rock5
-    2300070: rock_2
-    2300072: Small_Pillar_1
-    2300074: Small_Pillar_2
-    2300076: stair_side_left
-    2300078: stair_side_right
-    2300080: Temporary_Pillar_1
-    2300082: Temporary_Pillar_2
-    2300084: Temporary_Pillar_3
-    2300086: Temporary_Pillar_4
-    2300088: Temporary_Pillar_5
-    2300090: Temporary_Water
-    2300092: Wall_platform_1
-    2300094: Wall_Platforms_2
-    2300096: Breakable_rock_5
-    2300098: polySurface110
-    2300100: polySurface111
-    2300102: polySurface112
-    2300104: polySurface113
-    2300106: polySurface114
+    2300060: polySurface110
+    2300062: polySurface111
+    2300064: polySurface112
+    2300066: polySurface113
+    2300068: right_platforms
+    2300070: rock2
+    2300072: rock3
+    2300074: rock4
+    2300076: rock5
+    2300078: rock6
+    2300080: rock_2
+    2300082: Small_Pillar_1
+    2300084: Small_Pillar_2
+    2300086: stair_side_left
+    2300088: stair_side_right
+    2300090: Temporary_Pillar_1
+    2300092: Temporary_Pillar_2
+    2300094: Temporary_Pillar_3
+    2300096: Temporary_Pillar_4
+    2300098: Temporary_Pillar_5
+    2300100: Temporary_Water
+    2300102: Wall_platform_1
+    2300104: Wall_Platforms_2
     3300000: Alter_Pillar_1
     3300002: Alter_Pillar_2
     3300004: Alter_wall
-    3300006: bolder_spitter_right
-    3300008: Breakable_rock_3
-    3300010: Breakable_rock_4
-    3300012: Central_Area
-    3300014: central_stairs1
-    3300016: Centre_Pillar
-    3300018: End_of_water
-    3300020: Entrance
-    3300022: entrance_door
+    3300006: Breakable_rock_3
+    3300008: Breakable_rock_4
+    3300010: Breakable_rock_5
+    3300012: Breakable_rock_6
+    3300014: Breakable_rock_7
+    3300016: Central_Area
+    3300018: central_stairs1
+    3300020: Centre_Pillar
+    3300022: End_of_water
     3300024: Flame_Holder1
     3300026: Flame_Holder2
     3300028: front_door_left
@@ -349,38 +332,37 @@ ModelImporter:
     3300038: Large_Pillar_2
     3300040: Large_Platform_1
     3300042: Large_Platform_2
-    3300044: outer_layer_door
-    3300046: Outer_Stairs
-    3300048: Outer_Wall1
-    3300050: polySurface102
+    3300044: left_Platforms
+    3300046: outer_layer_door
+    3300048: Outer_Stairs
+    3300050: Outer_Wall1
     3300052: polySurface104
     3300054: polySurface105
     3300056: polySurface106
     3300058: polySurface107
-    3300060: polySurface109
-    3300062: rock2
-    3300064: rock3
-    3300066: rock4
-    3300068: rock5
-    3300070: rock_2
-    3300072: Small_Pillar_1
-    3300074: Small_Pillar_2
-    3300076: stair_side_left
-    3300078: stair_side_right
-    3300080: Temporary_Pillar_1
-    3300082: Temporary_Pillar_2
-    3300084: Temporary_Pillar_3
-    3300086: Temporary_Pillar_4
-    3300088: Temporary_Pillar_5
-    3300090: Temporary_Water
-    3300092: Wall_platform_1
-    3300094: Wall_Platforms_2
-    3300096: Breakable_rock_5
-    3300098: polySurface110
-    3300100: polySurface111
-    3300102: polySurface112
-    3300104: polySurface113
-    3300106: polySurface114
+    3300060: polySurface110
+    3300062: polySurface111
+    3300064: polySurface112
+    3300066: polySurface113
+    3300068: right_platforms
+    3300070: rock2
+    3300072: rock3
+    3300074: rock4
+    3300076: rock5
+    3300078: rock6
+    3300080: rock_2
+    3300082: Small_Pillar_1
+    3300084: Small_Pillar_2
+    3300086: stair_side_left
+    3300088: stair_side_right
+    3300090: Temporary_Pillar_1
+    3300092: Temporary_Pillar_2
+    3300094: Temporary_Pillar_3
+    3300096: Temporary_Pillar_4
+    3300098: Temporary_Pillar_5
+    3300100: Temporary_Water
+    3300102: Wall_platform_1
+    3300104: Wall_Platforms_2
     4300000: Outer_Wall1
     4300002: Inner_Walls
     4300004: Island
@@ -401,94 +383,39 @@ ModelImporter:
     4300034: End_of_water
     4300036: Temporary_Water
     4300038: Breakable_rock_4
-    4300040: Entrance
-    4300042: Outer_Stairs
-    4300044: Temporary_Pillar_1
-    4300046: Temporary_Pillar_2
-    4300048: Temporary_Pillar_3
-    4300050: Temporary_Pillar_4
-    4300052: Temporary_Pillar_5
-    4300054: stair_side_left
-    4300056: stair_side_right
-    4300058: outer_layer_door
-    4300060: entrance_door
-    4300062: front_door_left
-    4300064: front_door_right
-    4300066: bolder_spitter_right
+    4300040: Breakable_rock_5
+    4300042: Breakable_rock_6
+    4300044: Breakable_rock_7
+    4300046: Outer_Stairs
+    4300048: Temporary_Pillar_1
+    4300050: Temporary_Pillar_2
+    4300052: Temporary_Pillar_3
+    4300054: Temporary_Pillar_4
+    4300056: Temporary_Pillar_5
+    4300058: stair_side_left
+    4300060: stair_side_right
+    4300062: outer_layer_door
+    4300064: front_door_left
+    4300066: front_door_right
     4300068: central_stairs1
     4300070: Flame_Holder1
     4300072: Flame_Holder2
-    4300074: polySurface102
-    4300076: rock3
-    4300078: rock4
-    4300080: rock5
-    4300082: rock_2
-    4300084: rock2
+    4300074: rock3
+    4300076: rock4
+    4300078: rock5
+    4300080: rock_2
+    4300082: rock2
+    4300084: left_Platforms
     4300086: polySurface104
     4300088: polySurface105
     4300090: polySurface106
     4300092: polySurface107
-    4300094: polySurface109
-    4300096: Breakable_rock_5
-    4300098: polySurface110
-    4300100: polySurface111
-    4300102: polySurface112
-    4300104: polySurface113
-    4300106: polySurface114
-    6400000: Alter_Pillar_1
-    6400002: Alter_Pillar_2
-    6400004: Alter_wall
-    6400006: bolder_spitter_right
-    6400008: Breakable_rock_3
-    6400010: Breakable_rock_4
-    6400012: Central_Area
-    6400014: central_stairs1
-    6400016: Centre_Pillar
-    6400018: End_of_water
-    6400020: Entrance
-    6400022: entrance_door
-    6400024: Flame_Holder1
-    6400026: Flame_Holder2
-    6400028: front_door_left
-    6400030: front_door_right
-    6400032: Inner_Walls
-    6400034: Island
-    6400036: Large_Pillar_1
-    6400038: Large_Pillar_2
-    6400040: Large_Platform_1
-    6400042: Large_Platform_2
-    6400044: outer_layer_door
-    6400046: Outer_Stairs
-    6400048: Outer_Wall1
-    6400050: polySurface102
-    6400052: polySurface104
-    6400054: polySurface105
-    6400056: polySurface106
-    6400058: polySurface107
-    6400060: polySurface109
-    6400062: rock2
-    6400064: rock3
-    6400066: rock4
-    6400068: rock5
-    6400070: rock_2
-    6400072: Small_Pillar_1
-    6400074: Small_Pillar_2
-    6400076: stair_side_left
-    6400078: stair_side_right
-    6400080: Temporary_Pillar_1
-    6400082: Temporary_Pillar_2
-    6400084: Temporary_Pillar_3
-    6400086: Temporary_Pillar_4
-    6400088: Temporary_Pillar_5
-    6400090: Temporary_Water
-    6400092: Wall_platform_1
-    6400094: Wall_Platforms_2
-    6400096: Breakable_rock_5
-    6400098: polySurface110
-    6400100: polySurface111
-    6400102: polySurface112
-    6400104: polySurface113
-    6400106: polySurface114
+    4300094: right_platforms
+    4300096: polySurface110
+    4300098: polySurface111
+    4300100: polySurface112
+    4300102: polySurface113
+    4300104: rock6
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -512,7 +439,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

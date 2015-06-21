@@ -1,20 +1,53 @@
 fileFormatVersion: 2
-guid: c9434e4b5a0424225a15a5dd7c7b3e25
-timeCreated: 1434879624
+guid: e252cc4770735484f9d5e50c9123327f
+timeCreated: 1434875642
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: back
-    100002: Island
+    100000: bolder_frame
+    100002: bolder_mouth
     100004: //RootNode
-    400000: back
-    400002: Island
+    100006: bolder_frame1
+    100008: transform1
+    100010: transform2
+    100012: bolder_frame2
+    100014: polySurface1
+    100016: polySurface2
+    100018: polySurface3
+    100020: transform3
+    100022: transform4
+    100024: transform5
+    100026: transform6
+    400000: bolder_frame
+    400002: bolder_mouth
     400004: //RootNode
-    2300000: Island
-    3300000: Island
-    4300000: Island
-    6400000: Island
+    400006: bolder_frame1
+    400008: transform1
+    400010: transform2
+    400012: bolder_frame2
+    400014: polySurface1
+    400016: polySurface2
+    400018: polySurface3
+    400020: transform3
+    400022: transform4
+    400024: transform5
+    400026: transform6
+    2300000: bolder_frame
+    2300002: bolder_mouth
+    2300004: bolder_frame1
+    2300006: bolder_frame2
+    3300000: bolder_frame
+    3300002: bolder_mouth
+    3300004: bolder_frame1
+    3300006: bolder_frame2
+    4300000: bolder_mouth
+    4300002: bolder_frame
+    4300004: bolder_frame1
+    4300006: bolder_frame2
+    6400000: bolder_frame1
+    6400002: bolder_frame2
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
