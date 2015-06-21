@@ -69,6 +69,18 @@ ModelImporter:
     4300018: Flowers:flower_3_stalk1
     4300020: Rock_2
     4300022: rock_1
+    6400000: Flowers:flower_3_stalk1
+    6400002: Grass1
+    6400004: Grass2
+    6400006: Grass3
+    6400008: Grass4
+    6400010: Grass6
+    6400012: Grass7
+    6400014: Island
+    6400016: MediumGrass:Grass1
+    6400018: Mountain
+    6400020: rock_1
+    6400022: Rock_2
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -92,7 +104,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

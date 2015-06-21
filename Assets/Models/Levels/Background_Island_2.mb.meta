@@ -341,6 +341,16 @@ ModelImporter:
     4300014: rock_3
     4300016: rock_4
     4300018: Grass
+    6400000: Flower_1
+    6400002: Flower_2
+    6400004: Flower_3
+    6400006: Grass
+    6400008: island
+    6400010: rock6
+    6400012: rock_2
+    6400014: rock_3
+    6400016: rock_4
+    6400018: rock_5
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -363,7 +373,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
