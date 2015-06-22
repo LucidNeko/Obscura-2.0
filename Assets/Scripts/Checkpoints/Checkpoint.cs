@@ -11,21 +11,16 @@ public class Checkpoint : MonoBehaviour {
 
 	private Transform m_Player;
 
-//	// Use this for initialization
-//	void Start () {
-//		m_Player = GameObject.FindGameObjectWithTag ("Player").transform;
-//	}
-//	
-//	// Update is called once per frame
-//	void Update () {
-//		if (Input.GetKeyDown (KeyCode.R)) {
-//			m_Player.transform.position = LastCheckpoint.position;
-//		}
-//	}
-
 	void OnTriggerEnter(Collider other) {
 		if(other.CompareTag("Player")) {
 			LastCheckpoint = this.transform;
+		}
+	}
+
+
+	void Update() {
+		if (Input.GetKeyDown (KeyCode.M)) {
+			Camera.main.GetComponent<CameraControls>().LookAt(LastCheckpoint.position, 1, 2);
 		}
 	}
 }

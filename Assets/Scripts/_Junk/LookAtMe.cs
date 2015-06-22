@@ -13,7 +13,7 @@ public class LookAtMe : MonoBehaviour {
 	// Update is called once per frame
 	void LateUpdate () {
 		if (Input.GetKeyDown (KeyCode.Z)) {
-			m_Camera.LookAt(transform, 0.5f, 3f);
+			m_Camera.LookAt(transform.position, 0.5f, 3f);
 		}
 	}
 }

@@ -6,6 +6,8 @@ public class CameraControls : MonoBehaviour {
 	private Vector3 m_DefaultPosition;
 	private TrackingCameraRig m_Rig;
 
+	private bool m_CanLookAt = true;
+
 	public void Awake() {
 		m_DefaultPosition = transform.localPosition;
 		m_Rig = transform.parent.parent.GetComponent<TrackingCameraRig> ();
@@ -29,11 +31,14 @@ public class CameraControls : MonoBehaviour {
 		transform.localPosition = m_DefaultPosition;
 	}
 
-	public void LookAt(Transform target, float height, float duration) {
-		StartCoroutine(LookAtCoroutine(target, height, duration));
+	public void LookAt(Vector3 target, float height, float duration) {
+		if (m_CanLookAt) {
+			m_CanLookAt = false;
+			StartCoroutine (LookAtCoroutine (target, height, duration));
+		}
 	}
 
-	public IEnumerator LookAtCoroutine(Transform target, float height, float duration) {
+	public IEnumerator LookAtCoroutine(Vector3 target, float height, float duration) {
 		Quaternion firstRotation = transform.localRotation;
 		Vector3 firstPosition = transform.localPosition;
 
@@ -43,7 +48,7 @@ public class CameraControls : MonoBehaviour {
 			transform.position = Vector3.Lerp(transform.position, transform.position + Vector3.up*height, 0.05f);
 			
 			Quaternion oldRotation = transform.rotation;
-			transform.LookAt (target.position);
+			transform.LookAt (target);
 			Quaternion rotationTarget = transform.rotation;
 			transform.rotation = oldRotation;
 			
@@ -63,7 +68,7 @@ public class CameraControls : MonoBehaviour {
 		transform.localPosition = firstPosition;
 		transform.localRotation = firstRotation;
 
-
+		m_CanLookAt = true;
 	}
 
 
