@@ -430,6 +430,8 @@ ModelImporter:
     4300064: polySurface79
     4300066: Crystals
     4300068: Rocks
+    6400000: Crystals
+    6400002: Rocks
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -453,7 +455,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
