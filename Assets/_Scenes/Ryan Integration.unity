@@ -12375,7 +12375,7 @@ GameObject:
   - 65: {fileID: 1076304310}
   m_Layer: 0
   m_Name: DeathByWater2
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12387,7 +12387,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1076304308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.09000003, y: -11.5299997, z: -0}
+  m_LocalPosition: {x: -1.09000003, y: -6.5999999, z: 0}
   m_LocalScale: {x: 13.2285538, y: 1, z: 55.6143265}
   m_Children: []
   m_Father: {fileID: 1981853515}
@@ -17086,14 +17086,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 11455064, guid: ce6997855734feb42b406a3bc52a74c5, type: 2}
-      propertyPath: m_JumpForce
-      value: 11.8299999
-      objectReference: {fileID: 0}
-    - target: {fileID: 11453098, guid: ce6997855734feb42b406a3bc52a74c5, type: 2}
-      propertyPath: jumpClip
-      value: 
-      objectReference: {fileID: 8300000, guid: afb5d0fa8545240d2b43494db4b10476, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce6997855734feb42b406a3bc52a74c5, type: 2}
   m_IsPrefabParent: 0

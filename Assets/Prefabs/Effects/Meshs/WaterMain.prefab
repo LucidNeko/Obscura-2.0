@@ -26,9 +26,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191448}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: -.139744759, z: 0, w: .990187585}
+  m_LocalPosition: {x: 1.35000002, y: 9.18000031, z: -16.2399998}
+  m_LocalScale: {x: .200000003, y: .100000001, z: .200000003}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -105,10 +105,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24627c34add95463ea538519730e5be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swellHeight: 3
-  swellSpeed: 3
+  swellHeight: 1
+  swellSpeed: 1
   splash: {fileID: 162430, guid: 8b3cf56926756470eafc68ba7b24920b, type: 2}
-  splashesOn: 1
+  splashesOn: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
