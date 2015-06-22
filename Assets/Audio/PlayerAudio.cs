@@ -23,6 +23,11 @@ public class PlayerAudio : MonoBehaviour {
 	[Range(0.0F, 1.0F)]
 	public float dieVolume = 0.4F;
 
+	public AudioClip splashClip;
+	
+	[Range(0.0F, 1.0F)]
+	public float splashVolume = 0.4F;
+
 	AudioSource source;
 
 
@@ -43,4 +48,11 @@ public class PlayerAudio : MonoBehaviour {
 	public void die(){
 		source.PlayOneShot (dieClip, dieVolume);
 	}
+
+	public void splash(){
+		source.PlayOneShot (splashClip, splashVolume);
+		source.PlayOneShot (dieClip, dieVolume);
+	}
+
+
 }

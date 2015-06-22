@@ -32,10 +32,6 @@ public class NPCSpeechBubble : MonoBehaviour {
 		// If the player walks into the trigger
 		if (other.gameObject.CompareTag ("Player")) {
 
-//			for(int i = 0; i < 1000; i++) {
-//				Debug.Log ("trigr enter");
-//			}
-
 			// Reset the index to 0
 			messageIndex = 0;
 
