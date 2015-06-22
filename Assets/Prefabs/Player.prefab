@@ -143,9 +143,9 @@ GameObject:
   - 135: {fileID: 13583798}
   - 82: {fileID: 8228500}
   - 81: {fileID: 8142176}
-  - 114: {fileID: 11453098}
   - 114: {fileID: 11475958}
   - 114: {fileID: 11452634}
+  - 114: {fileID: 11430310}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -689,8 +689,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119794}
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: -.691885531, z: 0, w: .722007215}
   m_LocalPosition: {x: 101.790001, y: 2.8599999, z: .670000017}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> origin/master
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 444890}
@@ -924,7 +929,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5b5eec63bb10d478c8995ef2ef51686b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: .100000001
+  m_Volume: .0500000007
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -956,7 +961,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: .899999976
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1062,7 +1067,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5b5eec63bb10d478c8995ef2ef51686b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: .100000001
+  m_Volume: .0500000007
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1166,25 +1171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 5b5eec63bb10d478c8995ef2ef51686b, type: 3}
-  - {fileID: 8300000, guid: 0baaba47275774b57b9c82a19aafc67e, type: 3}
-  - {fileID: 8300000, guid: 32c903601ddb449879d5d3e6bb4a37dc, type: 3}
-  - {fileID: 8300000, guid: 3e99c78414ab446faa461ae5507e7939, type: 3}
-  - {fileID: 8300000, guid: 04d3efc2a1b7b4feabc8a7d0f5f5771c, type: 3}
-  - {fileID: 8300000, guid: 9a734aeacf5cb47209eda30931493663, type: 3}
---- !u!114 &11452634
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 119794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e05ca46df6ccf4ac4ab86cf2ed89feba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Splash: {fileID: 162430, guid: 8b3cf56926756470eafc68ba7b24920b, type: 2}
---- !u!114 &11453098
+  - {fileID: 8300000, guid: 1b6baf52157e64e7baeabf3cd52def43, type: 3}
+--- !u!114 &11430310
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1195,12 +1183,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf80ac92553c4eff9f0008d67c2e698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpClip: {fileID: 8300000, guid: afb5d0fa8545240d2b43494db4b10476, type: 3}
-  jumpVolume: .100000001
+<<<<<<< HEAD
+  Splash: {fileID: 162430, guid: 8b3cf56926756470eafc68ba7b24920b, type: 2}
+--- !u!114 &11453098
+=======
+  jumpClip: {fileID: 8300000, guid: 6d67a096bb7d74c44abb18cce13f8d0f, type: 3}
+  jumpVolume: 0
   spinClip: {fileID: 8300000, guid: 06a651836d8f04b4e92772a8257d76e8, type: 3}
   spinVolume: .400000006
   dieClip: {fileID: 8300000, guid: 0ef45dde1307647068fb5b19aa26231d, type: 3}
   dieVolume: .100000001
+--- !u!114 &11452634
+>>>>>>> origin/master
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05ca46df6ccf4ac4ab86cf2ed89feba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11455064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1217,7 +1221,7 @@ MonoBehaviour:
   m_JumpForce: 11.8299999
   m_GravityMultiplier: 4
   m_GroundRayLength: .200000003
-  m_audioScript: {fileID: 11453098}
+  m_audioScript: {fileID: 11430310}
 --- !u!114 &11471228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1233,7 +1237,7 @@ MonoBehaviour:
   m_Duration: .75
   m_ForwardForce: 3
   m_UpwardForce: 7
-  m_audioScript: {fileID: 11453098}
+  m_audioScript: {fileID: 11430310}
 --- !u!114 &11475958
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1257,12 +1261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 5b5eec63bb10d478c8995ef2ef51686b, type: 3}
-  - {fileID: 8300000, guid: 0baaba47275774b57b9c82a19aafc67e, type: 3}
-  - {fileID: 8300000, guid: 32c903601ddb449879d5d3e6bb4a37dc, type: 3}
-  - {fileID: 8300000, guid: 3e99c78414ab446faa461ae5507e7939, type: 3}
-  - {fileID: 8300000, guid: 04d3efc2a1b7b4feabc8a7d0f5f5771c, type: 3}
-  - {fileID: 8300000, guid: 9a734aeacf5cb47209eda30931493663, type: 3}
+  - {fileID: 8300000, guid: 1b6baf52157e64e7baeabf3cd52def43, type: 3}
 --- !u!114 &11491622
 MonoBehaviour:
   m_ObjectHideFlags: 1
