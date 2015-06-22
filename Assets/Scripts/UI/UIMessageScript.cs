@@ -21,7 +21,7 @@ public class UIMessageScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		animator = panel.GetComponent<Animator>();
-		displayMessage(messageType);
+
 	}
 	
 
@@ -30,7 +30,7 @@ public class UIMessageScript : MonoBehaviour {
 		if (!hasPlayed || repeat) {
 			if(other.gameObject.CompareTag("Player"))
 			{
-
+				displayMessage(messageType);
 				animator.SetBool("showUI", true);
 			}
 		}
