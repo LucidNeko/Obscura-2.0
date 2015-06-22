@@ -28,6 +28,9 @@ GameObject:
   - 23: {fileID: 2379624}
   - 95: {fileID: 9501226}
   - 114: {fileID: 11468678}
+  - 114: {fileID: 11486202}
+  - 65: {fileID: 6562564}
+  - 114: {fileID: 11408246}
   m_Layer: 0
   m_Name: crystalshard
   m_TagString: Untagged
@@ -177,6 +180,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126356}
   m_Mesh: {fileID: 4300000, guid: 5f107f5ac4f2b4e2aaee5a99c00d8cd2, type: 3}
+--- !u!65 &6562564
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .625804424, y: .726106524, z: .828399301}
+  m_Center: {x: -.0145797729, y: .0536799431, z: .00758600235}
 --- !u!95 &9501226
 Animator:
   serializedVersion: 3
@@ -290,6 +305,22 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11408246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291f795d03b2a4ab2ac9b23a18916355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crystalImage: {fileID: 2800000, guid: 9bdcc5f7ef7fe4764bde39d3e14ab36e, type: 3}
+  x: 250
+  y: 250
+  width: 250
+  height: 250
 --- !u!114 &11468678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -306,6 +337,17 @@ MonoBehaviour:
   lightBot: {fileID: 10825300}
   minGlow: 1
   maxGlow: 8
+--- !u!114 &11486202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30be88ba5cba74fb98583af2a172be20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
