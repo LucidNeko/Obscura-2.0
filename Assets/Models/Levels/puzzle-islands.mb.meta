@@ -48,6 +48,8 @@ ModelImporter:
     100080: pCube27
     100082: pCube28
     100084: polySurface11
+    100086: Fireblocks
+    100088: Stairs
     400000: bottom
     400002: island
     400004: island1
@@ -91,6 +93,8 @@ ModelImporter:
     400080: pCube27
     400082: pCube28
     400084: polySurface11
+    400086: Fireblocks
+    400088: Stairs
     2300000: polySurface1
     2300002: polySurface10
     2300004: polySurface2
@@ -106,6 +110,8 @@ ModelImporter:
     2300024: pCube27
     2300026: pCube28
     2300028: polySurface11
+    2300030: Fireblocks
+    2300032: Stairs
     3300000: polySurface1
     3300002: polySurface10
     3300004: polySurface2
@@ -121,6 +127,8 @@ ModelImporter:
     3300024: pCube27
     3300026: pCube28
     3300028: polySurface11
+    3300030: Fireblocks
+    3300032: Stairs
     4300000: polySurface1
     4300002: polySurface2
     4300004: polySurface3
@@ -136,6 +144,8 @@ ModelImporter:
     4300024: pCube26
     4300026: pCube27
     4300028: pCube28
+    4300030: Stairs
+    4300032: Fireblocks
     6400000: polySurface1
     6400002: polySurface10
     6400004: polySurface2
@@ -151,6 +161,8 @@ ModelImporter:
     6400024: pCube27
     6400026: pCube28
     6400028: polySurface11
+    6400030: Fireblocks
+    6400032: Stairs
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -187,9 +199,9 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 0
     splitTangentsAcrossUV: 1
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0
