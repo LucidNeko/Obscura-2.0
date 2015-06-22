@@ -144,6 +144,7 @@ GameObject:
   - 82: {fileID: 8228500}
   - 81: {fileID: 8142176}
   - 114: {fileID: 11453098}
+  - 114: {fileID: 11475958}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1181,7 +1182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf80ac92553c4eff9f0008d67c2e698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpClip: {fileID: 8300000, guid: 6d67a096bb7d74c44abb18cce13f8d0f, type: 3}
+  jumpClip: {fileID: 8300000, guid: afb5d0fa8545240d2b43494db4b10476, type: 3}
   jumpVolume: .100000001
   spinClip: {fileID: 8300000, guid: 06a651836d8f04b4e92772a8257d76e8, type: 3}
   spinVolume: .400000006
@@ -1200,7 +1201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RotationSpeed: 10
   m_AirMoveSpeed: 1
-  m_JumpForce: 10
+  m_JumpForce: 11.8299999
   m_GravityMultiplier: 4
   m_GroundRayLength: .200000003
   m_audioScript: {fileID: 11453098}
@@ -1220,6 +1221,17 @@ MonoBehaviour:
   m_ForwardForce: 3
   m_UpwardForce: 7
   m_audioScript: {fileID: 11453098}
+--- !u!114 &11475958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978ac8a12c51b4484b55e9dc6a4f1e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11479134
 MonoBehaviour:
   m_ObjectHideFlags: 1

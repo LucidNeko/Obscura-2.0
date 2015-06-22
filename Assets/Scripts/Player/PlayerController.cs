@@ -24,10 +24,14 @@ public class PlayerController : MonoBehaviour {
 	private Vector3 m_LastGround;
 	private Vector3 m_FallingVelocity = Vector3.zero;
 
+	private PlayerControls m_PlayerControls;
+
 	// Use this for initialization
 	void Start() {
 		m_Body = GetComponent<Rigidbody>();
 		m_Anim = GetComponent<Animator>();
+
+		m_PlayerControls = GetComponent<PlayerControls> ();
 
 		//freeze rigidbody rotation
 		m_Body.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
@@ -88,7 +92,6 @@ public class PlayerController : MonoBehaviour {
 			}
 
 			if(m_FallingVelocity.y < -50) {
-				FallDamage();
 				m_FallingVelocity = Vector3.zero;
 			}
 
@@ -130,37 +133,10 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	private void FallBackToEarth() {
-		if (transform.position.y < -30) {
-			m_Body.MovePosition(m_LastGround + Vector3.up*30);
+		if (transform.position.y < -50) {
+//			m_Body.MovePosition(m_LastGround + Vector3.up*30);
+			m_PlayerControls.Die();
 			m_Body.velocity = Vector3.Scale(m_Body.velocity, new Vector3(0, 1, 0));
-		}
-	}
-
-	private void FallDamage() {
-		Debug.Log ("ouch");
-		m_audioScript.die(); // Play die audio
-		StartCoroutine (Ouch (2));
-	}
-
-	IEnumerator Ouch(float duration) {
-		float t = 0;
-		while(t < 1) {
-			t += 0.25f; //speed
-			Vector3 scale = transform.localScale;
-			scale.y = Mathf.Lerp(1, 0.1f, t);
-			transform.localScale = scale;
-			yield return null;
-		}
-
-		yield return new WaitForSeconds (0.25f);
-
-		t = 0;
-		while (t < 1) {
-			t += 0.1f; //speed
-			Vector3 scale = transform.localScale;
-			scale.y = Mathf.Lerp(0.1f, 1, t);
-			transform.localScale = scale;
-			yield return null;
 		}
 	}
 
