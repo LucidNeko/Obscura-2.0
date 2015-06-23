@@ -1,114 +1,76 @@
 fileFormatVersion: 2
 guid: d661a65001a2446cf9ba4c230df6580d
-timeCreated: 1434950295
+timeCreated: 1435042011
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: bottom
-    100002: island
-    100004: island1
-    100006: pCube24
-    100008: pCube25
-    100010: pCube26
-    100012: pCube27
-    100014: pCube28
-    100016: pole_1
-    100018: pole_2
-    100020: pole_3
-    100022: pole_4
-    100024: pole_5
-    100026: pole_6
-    100028: pole_7
-    100030: polySurface1
-    100032: polySurface10
-    100034: polySurface11
-    100036: polySurface2
-    100038: pPipe1
-    100040: pPipe2
-    100042: //RootNode
-    100044: Ruins
-    100046: transform10
-    100048: transform11
-    100050: transform12
-    100052: transform13
-    100054: transform14
-    100056: transform15
-    100058: transform16
-    100060: transform17
-    100062: transform18
-    100064: transform19
-    100066: transform7
-    100068: transform8
-    100070: transform9
+    100002: island1
+    100004: polySurface1
+    100006: polySurface2
+    100008: polySurface3
+    100010: polySurface4
+    100012: polySurface5
+    100014: polySurface6
+    100016: polySurface7
+    100018: polySurface8
+    100020: polySurface9
+    100022: //RootNode
+    100024: Ruins
+    100026: Ruins1:bottom
+    100028: Ruins1:pCube28
     400000: bottom
-    400002: island
-    400004: island1
-    400006: pCube24
-    400008: pCube25
-    400010: pCube26
-    400012: pCube27
-    400014: pCube28
-    400016: pole_1
-    400018: pole_2
-    400020: pole_3
-    400022: pole_4
-    400024: pole_5
-    400026: pole_6
-    400028: pole_7
-    400030: polySurface1
-    400032: polySurface10
-    400034: polySurface11
-    400036: polySurface2
-    400038: pPipe1
-    400040: pPipe2
-    400042: //RootNode
-    400044: Ruins
-    400046: transform10
-    400048: transform11
-    400050: transform12
-    400052: transform13
-    400054: transform14
-    400056: transform15
-    400058: transform16
-    400060: transform17
-    400062: transform18
-    400064: transform19
-    400066: transform7
-    400068: transform8
-    400070: transform9
-    2300000: pCube25
-    2300002: pCube26
-    2300004: pCube27
-    2300006: pCube28
-    2300008: polySurface1
-    2300010: polySurface10
-    2300012: polySurface11
-    2300014: polySurface2
-    3300000: pCube25
-    3300002: pCube26
-    3300004: pCube27
-    3300006: pCube28
-    3300008: polySurface1
-    3300010: polySurface10
-    3300012: polySurface11
-    3300014: polySurface2
+    400002: island1
+    400004: polySurface1
+    400006: polySurface2
+    400008: polySurface3
+    400010: polySurface4
+    400012: polySurface5
+    400014: polySurface6
+    400016: polySurface7
+    400018: polySurface8
+    400020: polySurface9
+    400022: //RootNode
+    400024: Ruins
+    400026: Ruins1:bottom
+    400028: Ruins1:pCube28
+    2300000: polySurface1
+    2300002: polySurface2
+    2300004: polySurface3
+    2300006: polySurface4
+    2300008: polySurface5
+    2300010: polySurface6
+    2300012: polySurface7
+    2300014: polySurface8
+    2300016: polySurface9
+    3300000: polySurface1
+    3300002: polySurface2
+    3300004: polySurface3
+    3300006: polySurface4
+    3300008: polySurface5
+    3300010: polySurface6
+    3300012: polySurface7
+    3300014: polySurface8
+    3300016: polySurface9
     4300000: polySurface1
     4300002: polySurface2
-    4300004: polySurface10
-    4300006: polySurface11
-    4300008: pCube25
-    4300010: pCube26
-    4300012: pCube27
-    4300014: pCube28
-    6400000: pCube25
-    6400002: pCube26
-    6400004: pCube27
-    6400006: pCube28
-    6400008: polySurface1
-    6400010: polySurface10
-    6400012: polySurface11
-    6400014: polySurface2
+    4300004: polySurface3
+    4300006: polySurface4
+    4300008: polySurface5
+    4300010: polySurface6
+    4300012: polySurface7
+    4300014: polySurface8
+    4300016: polySurface9
+    6400000: polySurface1
+    6400002: polySurface2
+    6400004: polySurface3
+    6400006: polySurface4
+    6400008: polySurface5
+    6400010: polySurface6
+    6400012: polySurface7
+    6400014: polySurface8
+    6400016: polySurface9
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -145,9 +107,9 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 0
+    normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0
