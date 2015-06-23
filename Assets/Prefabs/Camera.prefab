@@ -28,6 +28,7 @@ GameObject:
   - 124: {fileID: 12479130}
   - 114: {fileID: 11435276}
   - 114: {fileID: 11410984}
+  - 114: {fileID: 11494230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -345,9 +346,25 @@ MonoBehaviour:
   source: {fileID: 8255814}
   musicTrackHappy: {fileID: 8300000, guid: 2275c790903f44d97862af47a5807a8e, type: 3}
   musicTrackSad: {fileID: 8300000, guid: ae562bc5a560d40d69847c8fd9f8e24d, type: 3}
-  fadeTime: 5
-  volume: .0500000007
+  fadeTime: 1
+  volume: .100000001
   changeTrack: 0
+--- !u!114 &11494230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129520}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc6bde01469c7b4badee5362f191d96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  downsample: 1
+  blurSize: 3
+  blurIterations: 2
+  blurType: 0
+  blurShader: {fileID: 4800000, guid: f9d5fa183cd6b45eeb1491f74863cd91, type: 3}
 --- !u!124 &12479130
 Behaviour:
   m_ObjectHideFlags: 1

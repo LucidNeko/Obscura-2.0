@@ -11,6 +11,7 @@ GameObject:
   - 33: {fileID: 3336980}
   - 23: {fileID: 2377178}
   - 95: {fileID: 9534764}
+  - 64: {fileID: 6434798}
   m_Layer: 0
   m_Name: bigboulder2
   m_TagString: Untagged
@@ -60,6 +61,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113492}
+  m_Mesh: {fileID: 4300000, guid: f82def21167d0447bbbf114e471ac6c2, type: 3}
+--- !u!64 &6434798
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: f82def21167d0447bbbf114e471ac6c2, type: 3}
 --- !u!95 &9534764
 Animator:
