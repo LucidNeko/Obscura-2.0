@@ -193,6 +193,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65d3c52f04ad4e53886d018d39c26e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Light: {fileID: 0}
+  m_SkyboxA: {fileID: 2100000, guid: 8eb2953dc4a214e1c97f05d26339242b, type: 2}
+  m_FogColourA: {r: .78039223, g: .992156923, b: 1, a: 0}
+  m_FogDensityA: .00300000003
+  m_SkyboxB: {fileID: 2100000, guid: bc87357fe992e45698c492bd34119dd5, type: 2}
+  m_FogColourB: {r: .882353008, g: .337254912, b: .337254912, a: 0}
+  m_FogDensityB: .00100000005
+  m_LightColourA: {r: 1, g: .843137324, b: .411764741, a: 0}
+  m_LightColourB: {r: .800000072, g: .34117648, b: .34117648, a: 0}
 --- !u!135 &13524704
 SphereCollider:
   m_ObjectHideFlags: 1
