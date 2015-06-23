@@ -30,12 +30,9 @@ public class crystalGUI : MonoBehaviour {
 
 		int quantity = cpu.GetCrystalsCollected ();
 
-		if (quantity != 0) {
+		GUI.DrawTexture (new Rect (x, y, width, height), crystalImage);
 
-			GUI.DrawTexture (new Rect (x, y, width, height), crystalImage);
-
-			GUI.Label (new Rect (x * 3, y*2, width, height), quantity.ToString(),skin);
-		}
+		GUI.Label (new Rect (x * 3, y*2, width, height), quantity.ToString(),skin);
 
 
 			

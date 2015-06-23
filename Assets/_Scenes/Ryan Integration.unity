@@ -9988,7 +9988,7 @@ Transform:
   m_Children:
   - {fileID: 453641563}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
 --- !u!4 &877414959
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 12c754563abbf4a03a67c569ba360a01, type: 3}
@@ -10025,7 +10025,9 @@ MonoBehaviour:
   panel: {fileID: 364224993}
   message: {fileID: 161729377}
   messageType: 4
-  customMessage: BLEP BLOOP
+  customMessages:
+  - Collect More Crystals
+  - 
   repeat: 1
 --- !u!136 &879263535
 CapsuleCollider:
@@ -16506,9 +16508,17 @@ Prefab:
       value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 11486804, guid: a4af22e3c5c41492da6eedd86f9b60d3, type: 2}
+      propertyPath: island
+      value: 
+      objectReference: {fileID: 2067707098}
+    - target: {fileID: 11486804, guid: a4af22e3c5c41492da6eedd86f9b60d3, type: 2}
       propertyPath: crysM
       value: 
       objectReference: {fileID: 2126409326}
+    - target: {fileID: 11486804, guid: a4af22e3c5c41492da6eedd86f9b60d3, type: 2}
+      propertyPath: ms
+      value: 
+      objectReference: {fileID: 879263534}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a4af22e3c5c41492da6eedd86f9b60d3, type: 2}
   m_IsPrefabParent: 0
@@ -18673,7 +18683,6 @@ GameObject:
   - 33: {fileID: 1739263875}
   - 23: {fileID: 1739263874}
   - 95: {fileID: 1739263873}
-  - 114: {fileID: 1739263872}
   - 114: {fileID: 1739263871}
   m_Layer: 0
   m_Name: Water_1
@@ -18710,18 +18719,6 @@ MonoBehaviour:
   swellSpeed: 1
   splash: {fileID: 162430, guid: 8b3cf56926756470eafc68ba7b24920b, type: 2}
   splashesOn: 0
---- !u!114 &1739263872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11458480, guid: 063ffcb5e6a60491fb0ce9fd11827ef6,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1739263869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1739263873
 Animator:
   serializedVersion: 3
@@ -20901,7 +20898,6 @@ GameObject:
   - 33: {fileID: 1981853520}
   - 23: {fileID: 1981853519}
   - 95: {fileID: 1981853518}
-  - 114: {fileID: 1981853517}
   - 114: {fileID: 1981853516}
   m_Layer: 0
   m_Name: Water_2
@@ -20939,18 +20935,6 @@ MonoBehaviour:
   swellSpeed: 1
   splash: {fileID: 162430, guid: 8b3cf56926756470eafc68ba7b24920b, type: 2}
   splashesOn: 0
---- !u!114 &1981853517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11458480, guid: 063ffcb5e6a60491fb0ce9fd11827ef6,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1981853514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1981853518
 Animator:
   serializedVersion: 3
@@ -21940,6 +21924,10 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 485322, guid: d27c01bff13aa4674b69f9373e73f395, type: 2}
   m_PrefabInternal: {fileID: 2062660356}
+--- !u!1 &2067707098
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: c9434e4b5a0424225a15a5dd7c7b3e25, type: 3}
+  m_PrefabInternal: {fileID: 577913826}
 --- !u!1001 &2073735708
 Prefab:
   m_ObjectHideFlags: 0
