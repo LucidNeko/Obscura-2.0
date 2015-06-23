@@ -20,7 +20,7 @@ public class AlterScript : MonoBehaviour {
 	public Color m_LightColourB;
 
 	//Dark World Particles
-	GameObject m_DarkWorldParticles;
+	public GameObject m_DarkWorldParticles;
 
 	private Animator m_Animator;
 
