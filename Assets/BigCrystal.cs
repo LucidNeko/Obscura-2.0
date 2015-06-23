@@ -8,6 +8,8 @@ public class BigCrystal : MonoBehaviour {
 	public GameObject crysM;
 	private CrystalPickup cp;
 
+	public UIMessageScript ms;
+
 
 	// Use this for initialization
 	void Start () {
@@ -24,22 +26,11 @@ public class BigCrystal : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag.Equals ("Player")) {
 			int quantity = cp.GetCrystalsCollected();
-			switch (quantity)
-			{
-			case 0: 
-				break;
-			case 1:
-				break;
-			case 2:
-				break;
-			case 3:
-				break;
-			case 4:
-				break;
-			case 5:
-				StartCoroutine(EnoughCrystals());
-				break;
-
+			if(quantity<5){
+				ms.setMessageNum(0);
+			}
+			else{
+				ms.setMessageNum(1);
 			}
 		}
 	}
