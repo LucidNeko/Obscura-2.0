@@ -10538,11 +10538,7 @@ Transform:
   - {fileID: 222445431}
   - {fileID: 2930693}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 30
-=======
-  m_RootOrder: 31
->>>>>>> origin/master
 --- !u!95 &579984961
 Animator:
   serializedVersion: 3
@@ -12948,7 +12944,7 @@ Transform:
   - {fileID: 271754239}
   - {fileID: 1088465962}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
 --- !u!95 &743269119
 Animator:
   serializedVersion: 3
@@ -14523,7 +14519,7 @@ Transform:
   m_Children:
   - {fileID: 453641563}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
 --- !u!4 &877414959
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 12c754563abbf4a03a67c569ba360a01, type: 3}
@@ -18865,7 +18861,7 @@ Transform:
   - {fileID: 410819057}
   - {fileID: 2113136577}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
 --- !u!95 &1225144249
 Animator:
   serializedVersion: 3
