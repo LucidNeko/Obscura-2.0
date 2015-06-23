@@ -51,8 +51,6 @@ public class PlayerAudio : MonoBehaviour {
 
 	public void splash(){
 		source.PlayOneShot (splashClip, splashVolume);
-		source.PlayOneShot (dieClip, dieVolume);
 	}
-
-
+	
 }

@@ -8,6 +8,7 @@ public class AudioMusicScript : MonoBehaviour {
 	public AudioClip musicTrackHappy;
 	public AudioClip musicTrackSad;
 
+
 	public float fadeTime = 5.0F; // Adjusts the time of the fade.
 
 	[Range(0.0F, 0.1F)]
