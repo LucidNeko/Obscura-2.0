@@ -689,8 +689,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119794}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -.691885531, z: 0, w: .722007215}
+  m_LocalPosition: {x: -13.3900003, y: 13.8660002, z: -4.92999983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 444890}
@@ -1184,6 +1184,8 @@ MonoBehaviour:
   spinVolume: .400000006
   dieClip: {fileID: 8300000, guid: 0ef45dde1307647068fb5b19aa26231d, type: 3}
   dieVolume: .100000001
+  splashClip: {fileID: 8300000, guid: b5294ac9173b74d639c4314578adaddb, type: 3}
+  splashVolume: .400000006
 --- !u!114 &11452634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1195,6 +1197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e05ca46df6ccf4ac4ab86cf2ed89feba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Splash: {fileID: 162430, guid: 8b3cf56926756470eafc68ba7b24920b, type: 2}
 --- !u!114 &11455064
 MonoBehaviour:
   m_ObjectHideFlags: 1

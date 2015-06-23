@@ -12,10 +12,16 @@ public class PlayerControls : MonoBehaviour {
 	
 	public void Die() {
 		transform.position = Checkpoint.LastCheckpoint.position;
-		StartCoroutine (Ouch (2));
+		StartCoroutine (Ouch (2,true));
 	}
 
-	public IEnumerator Ouch(float duration) {
+	public void WaterDie() {
+		transform.position = Checkpoint.LastCheckpoint.position;
+		StartCoroutine (Ouch (2,false));
+	}
+
+
+	public IEnumerator Ouch(float duration, bool deathSound) {
 		float t = 0;
 		while(t < 1) {
 			t += 0.25f; //speed
@@ -25,7 +31,7 @@ public class PlayerControls : MonoBehaviour {
 			yield return null;
 		}
 
-		m_audioScript.die ();
+		if(deathSound) m_audioScript.die ();
 
 		yield return new WaitForSeconds (0.25f);
 		
