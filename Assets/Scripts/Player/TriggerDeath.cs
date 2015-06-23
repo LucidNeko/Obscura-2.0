@@ -26,6 +26,9 @@ public class TriggerDeath : MonoBehaviour {
 			pc.WaterDie();
 
 		}
+		if (other.gameObject.tag.Equals ("Crystal")) {
+			pa.pickup();
+		}
 	}
 
 	Quaternion RandomDirection(){

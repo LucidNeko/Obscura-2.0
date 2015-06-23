@@ -8,6 +8,12 @@ using System.Collections;
 public class PlayerAudio : MonoBehaviour {
 	
 
+	public AudioClip pickupClip;
+	
+	[Range(0.0F, 1.0F)]
+	public float pickupVolume = 0.4F;
+
+
 	public AudioClip jumpClip;
 
 	[Range(0.0F, 1.0F)]
@@ -51,6 +57,10 @@ public class PlayerAudio : MonoBehaviour {
 
 	public void splash(){
 		source.PlayOneShot (splashClip, splashVolume);
+	}
+
+	public void pickup(){
+		source.PlayOneShot (pickupClip, pickupVolume);
 	}
 	
 }
