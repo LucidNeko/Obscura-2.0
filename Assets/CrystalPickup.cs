@@ -7,7 +7,7 @@ public class CrystalPickup : MonoBehaviour {
 
 
 	void Start () {
-		crystalsCollected = 5;
+		crystalsCollected = 0;
 	}
 	
 

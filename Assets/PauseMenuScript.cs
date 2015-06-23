@@ -62,13 +62,12 @@ public class PauseMenuScript : MonoBehaviour {
 	// Handles a yes press if main or quit selected
 	public void yes(){
 		if(quit){
-			Debug.Log("Quit");
 			Application.Quit();
 		}
 
 		if(main){
-			Debug.Log("Main");
-			//Application.LoadLevel("Main");
+			Time.timeScale = 1f;
+			Application.LoadLevel(0);
 		}
 	}
 
