@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CrystalPickup : MonoBehaviour {
 
-	 static int crystalsCollected;
+	public static int crystalsCollected;
 
 
 	void Start () {

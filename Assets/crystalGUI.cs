@@ -28,7 +28,7 @@ public class crystalGUI : MonoBehaviour {
 
 	void OnGUI() {
 
-		int quantity = cpu.GetCrystalsCollected ();
+		int quantity = CrystalPickup.crystalsCollected;// cpu.GetCrystalsCollected ();
 
 		GUI.DrawTexture (new Rect (x, y, width, height), crystalImage);
 

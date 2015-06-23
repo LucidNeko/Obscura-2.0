@@ -6,7 +6,7 @@ public class BigCrystal : MonoBehaviour {
 	public GameObject island;
 	public Transform destination;
 
-	public GameObject crysM;
+//	public GameObject crysM;
 	private CrystalPickup cp;
 
 	public UIMessageScript ms;
@@ -15,9 +15,9 @@ public class BigCrystal : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
-		cp = crysM.GetComponent<CrystalPickup> ();
-	}
+//	void Start () {
+//		cp = crysM.GetComponent<CrystalPickup> ();
+//	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -28,8 +28,9 @@ public class BigCrystal : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag.Equals ("Player")) {
-			int quantity = cp.GetCrystalsCollected();
-			if(quantity<5){
+			int quantity = CrystalPickup.crystalsCollected;// cp.GetCrystalsCollected();
+			Debug.Log(CrystalPickup.crystalsCollected);
+			if(quantity<1){
 				ms.setMessageNum(0);
 			}
 			else{
