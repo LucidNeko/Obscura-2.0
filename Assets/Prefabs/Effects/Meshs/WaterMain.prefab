@@ -1,5 +1,41 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &105280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422898}
+  - 33: {fileID: 3318966}
+  - 23: {fileID: 2362500}
+  - 95: {fileID: 9578316}
+  - 114: {fileID: 11417494}
+  - 114: {fileID: 11474746}
+  m_Layer: 0
+  m_Name: WaterMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &172128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 474860}
+  - 65: {fileID: 6525154}
+  m_Layer: 0
+  m_Name: DeathByWater
+  m_TagString: Death
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &191448
 GameObject:
   m_ObjectHideFlags: 0
@@ -14,30 +50,56 @@ GameObject:
   - 114: {fileID: 11458480}
   - 114: {fileID: 11499580}
   m_Layer: 0
-  m_Name: WaterMain
+  m_Name: SubWater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &422898
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105280}
+  m_LocalRotation: {x: 0, y: -.139744759, z: 0, w: .990187585}
+  m_LocalPosition: {x: 1.95000005, y: 10.1400003, z: -17.1599998}
+  m_LocalScale: {x: .218246654, y: .100000001, z: .219967648}
+  m_Children:
+  - {fileID: 474860}
+  - {fileID: 460796}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!4 &460796
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191448}
-  m_LocalRotation: {x: 0, y: -.139744759, z: 0, w: .990187585}
-  m_LocalPosition: {x: 1.35000002, y: 9.18000031, z: -16.2399998}
-  m_LocalScale: {x: .200000003, y: .100000001, z: .200000003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.20000005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 422898}
+  m_RootOrder: 1
+--- !u!4 &474860
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172128}
+  m_LocalRotation: {x: 0, y: .108719297, z: 0, w: .994072556}
+  m_LocalPosition: {x: 2.29999995, y: -10.3999996, z: -0}
+  m_LocalScale: {x: 1.17348397, y: 1, z: 1.03214657}
+  m_Children: []
+  m_Father: {fileID: 422898}
   m_RootOrder: 0
---- !u!23 &2375942
+--- !u!23 &2362500
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 191448}
+  m_GameObject: {fileID: 105280}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -56,6 +118,37 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!23 &2375942
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191448}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f0586dbc6956c40b89d2a0abd104aa9b, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3318966
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105280}
+  m_Mesh: {fileID: 4300000, guid: 5ce2162408a134a4f8b07ffa422520f9, type: 3}
 --- !u!33 &3391458
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -63,6 +156,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191448}
   m_Mesh: {fileID: 4300000, guid: 5ce2162408a134a4f8b07ffa422520f9, type: 3}
+--- !u!65 &6525154
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 34.7001495, y: 1, z: 41.411438}
+  m_Center: {x: 2.5009625, y: 0, z: -1.33822465}
 --- !u!95 &9555518
 Animator:
   serializedVersion: 3
@@ -80,6 +185,34 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &9578316
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105280}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 776b501d9b1d7433fafbf89f99978ab5, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11417494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11458480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -94,6 +227,21 @@ MonoBehaviour:
   swellHeight: 0
   swellSpeed: 0
   island: {fileID: 0}
+--- !u!114 &11474746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24627c34add95463ea538519730e5be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swellHeight: 1
+  swellSpeed: 1
+  splash: {fileID: 162430, guid: 8b3cf56926756470eafc68ba7b24920b, type: 2}
+  splashesOn: 0
 --- !u!114 &11499580
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -106,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swellHeight: 1
-  swellSpeed: 1
+  swellSpeed: 2
   splash: {fileID: 162430, guid: 8b3cf56926756470eafc68ba7b24920b, type: 2}
   splashesOn: 0
 --- !u!1001 &100100000
@@ -118,5 +266,5 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 191448}
+  m_RootGameObject: {fileID: 105280}
   m_IsPrefabParent: 1
