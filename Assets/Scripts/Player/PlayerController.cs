@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour {
 	private void HandleJump(bool jump) {
 		if (jump && m_IsGrounded && !m_Anim.IsInTransition(m_Anim.GetLayerIndex("Base Layer")) && !m_Anim.GetCurrentAnimatorStateInfo(m_Anim.GetLayerIndex("Base Layer")).IsName("Jump")) {
 			m_audioScript.jump(); // Play jump audio
-			m_Body.velocity = new Vector3(0, m_JumpForce, 0);//new Vector3(m_Body.velocity.x, m_JumpForce, m_Body.velocity.z);
+			m_Body.velocity = new Vector3(0, m_JumpForce, 0);
 			m_IsGrounded = false;
 		}
 	}
