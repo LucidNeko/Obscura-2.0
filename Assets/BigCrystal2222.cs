@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BigCrystal : MonoBehaviour {
+public class BigCrystal2222 : MonoBehaviour {
 
 	public GameObject island;
 	public Transform destination;
@@ -37,9 +37,9 @@ public class BigCrystal : MonoBehaviour {
 				ms.setMessageNum(1);
 				if(canMoveTheIsland) {
 					canMoveTheIsland = false;
-					GameObject.FindGameObjectWithTag("Player").transform.SetParent(island.transform);
+					//GameObject.FindGameObjectWithTag("Player").transform.SetParent(island.transform);
 					StartCoroutine(EnoughCrystals());
-					//Camera.main.GetComponent<CameraControls>().LookAt(destination.position, 9, 10);
+					Camera.main.GetComponent<CameraControls>().LookAt(destination.position, 9, 10);
 				}
 			}
 		}
@@ -51,7 +51,7 @@ public class BigCrystal : MonoBehaviour {
 		float speed = 0.1f;
 		float time = 0;
 
-		Vector3 start = transform.position;
+		Vector3 start = island.transform.position;
 		Vector3 end = destination.position;
 
 		Vector3 diff = end - start;
@@ -66,10 +66,10 @@ public class BigCrystal : MonoBehaviour {
 		Camera.main.GetComponent<CameraControls> ().Shake(0.3f,1f);
 
 		island.transform.position = startIsland + diff;
+
 //		canMoveTheIsland = true;
 
-
-		GameObject.FindGameObjectWithTag("Player").transform.SetParent(null);
+		//GameObject.FindGameObjectWithTag("Player").transform.SetParent(null);
 	}
 
 
