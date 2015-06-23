@@ -50,6 +50,53 @@ ModelImporter:
     100084: polySurface11
     100086: Fireblocks
     100088: Stairs
+    100090: Ruins:bottom
+    100092: Ruins:island
+    100094: Ruins:island1
+    100096: Ruins:pCube24
+    100098: Ruins:pCube25
+    100100: Ruins:pCube26
+    100102: Ruins:pCube27
+    100104: Ruins:pCube28
+    100106: Ruins:pole_1
+    100108: Ruins:pole_2
+    100110: Ruins:pole_3
+    100112: Ruins:pole_4
+    100114: Ruins:pole_5
+    100116: Ruins:pole_6
+    100118: Ruins:pole_7
+    100120: Ruins:polySurface10
+    100122: Ruins:polySurface10 1
+    100124: Ruins:polySurface11
+    100126: Ruins:polySurface12
+    100128: Ruins:polySurface2
+    100130: Ruins:polySurface2 1
+    100132: Ruins:pPipe1
+    100134: Ruins:pPipe2
+    100136: Ruins:Ruins
+    100138: Ruins:transform10
+    100140: Ruins:transform11
+    100142: Ruins:transform12
+    100144: Ruins:transform13
+    100146: Ruins:transform14
+    100148: Ruins:transform15
+    100150: Ruins:transform16
+    100152: Ruins:transform17
+    100154: Ruins:transform18
+    100156: Ruins:transform19
+    100158: Ruins:transform20
+    100160: Ruins:transform21
+    100162: Ruins:transform22
+    100164: Ruins:transform23
+    100166: Ruins:transform24
+    100168: Ruins:transform25
+    100170: Ruins:transform26
+    100172: Ruins:transform27
+    100174: Ruins:transform28
+    100176: Ruins:transform7
+    100178: Ruins:transform8
+    100180: Ruins:transform9
+    100182: Ruins1
     400000: bottom
     400002: island
     400004: island1
@@ -95,6 +142,53 @@ ModelImporter:
     400084: polySurface11
     400086: Fireblocks
     400088: Stairs
+    400090: Ruins:bottom
+    400092: Ruins:island
+    400094: Ruins:island1
+    400096: Ruins:pCube24
+    400098: Ruins:pCube25
+    400100: Ruins:pCube26
+    400102: Ruins:pCube27
+    400104: Ruins:pCube28
+    400106: Ruins:pole_1
+    400108: Ruins:pole_2
+    400110: Ruins:pole_3
+    400112: Ruins:pole_4
+    400114: Ruins:pole_5
+    400116: Ruins:pole_6
+    400118: Ruins:pole_7
+    400120: Ruins:polySurface10
+    400122: Ruins:polySurface10 1
+    400124: Ruins:polySurface11
+    400126: Ruins:polySurface12
+    400128: Ruins:polySurface2
+    400130: Ruins:polySurface2 1
+    400132: Ruins:pPipe1
+    400134: Ruins:pPipe2
+    400136: Ruins:Ruins
+    400138: Ruins:transform10
+    400140: Ruins:transform11
+    400142: Ruins:transform12
+    400144: Ruins:transform13
+    400146: Ruins:transform14
+    400148: Ruins:transform15
+    400150: Ruins:transform16
+    400152: Ruins:transform17
+    400154: Ruins:transform18
+    400156: Ruins:transform19
+    400158: Ruins:transform20
+    400160: Ruins:transform21
+    400162: Ruins:transform22
+    400164: Ruins:transform23
+    400166: Ruins:transform24
+    400168: Ruins:transform25
+    400170: Ruins:transform26
+    400172: Ruins:transform27
+    400174: Ruins:transform28
+    400176: Ruins:transform7
+    400178: Ruins:transform8
+    400180: Ruins:transform9
+    400182: Ruins1
     2300000: polySurface1
     2300002: polySurface10
     2300004: polySurface2
@@ -112,6 +206,8 @@ ModelImporter:
     2300028: polySurface11
     2300030: Fireblocks
     2300032: Stairs
+    2300034: Ruins:polySurface2
+    2300036: Ruins1
     3300000: polySurface1
     3300002: polySurface10
     3300004: polySurface2
@@ -129,6 +225,8 @@ ModelImporter:
     3300028: polySurface11
     3300030: Fireblocks
     3300032: Stairs
+    3300034: Ruins:polySurface2
+    3300036: Ruins1
     4300000: polySurface1
     4300002: polySurface2
     4300004: polySurface3
@@ -146,6 +244,8 @@ ModelImporter:
     4300028: pCube28
     4300030: Stairs
     4300032: Fireblocks
+    4300034: Ruins:polySurface2
+    4300036: Ruins1
     6400000: polySurface1
     6400002: polySurface10
     6400004: polySurface2
@@ -163,6 +263,8 @@ ModelImporter:
     6400028: polySurface11
     6400030: Fireblocks
     6400032: Stairs
+    6400034: Ruins:polySurface2
+    6400036: Ruins1
     9500000: //RootNode
   materials:
     importMaterials: 1
