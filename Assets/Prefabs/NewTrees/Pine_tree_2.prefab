@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 485322}
   - 95: {fileID: 9504212}
+  - 114: {fileID: 11463834}
   m_Layer: 0
   m_Name: Pine_tree_2
   m_TagString: Untagged
@@ -509,7 +510,7 @@ Animator:
   m_GameObject: {fileID: 197046}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 66717bdab81e34749887c4214d8c6236, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7ea2abc1eacdb46b194cd34722be0212, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -517,6 +518,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11463834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9c5156704e0d44c89454fc11c5ac315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

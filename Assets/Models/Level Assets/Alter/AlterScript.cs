@@ -46,9 +46,10 @@ public class AlterScript : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Player") && CanActivate()) {
 			m_Animator.SetTrigger("Activate");
 			Camera.main.GetComponent<CameraControls>().Shake(1f, 4f);
-			Camera.main.GetComponent<CameraControls>().LookAt(transform.position, 3, 3f);
+			Camera.main.GetComponent<CameraControls>().LookAt(Vector3.zero/*transform.position*/, 3, 3f);
 
 			StartCoroutine(TransitionEnvironment(2.5f));
+			TransitionObjects(); 
 		}
 	}
 
@@ -83,6 +84,12 @@ public class AlterScript : MonoBehaviour {
 			m_DarkWorldParticles.SetActive (false);
 		} else {
 			m_DarkWorldParticles.SetActive (true);
+		}
+	}
+
+	public void TransitionObjects() {
+		foreach (GameObject obj in TransitionableObject.GetAll) {
+			obj.GetComponent<Animator>().SetTrigger("Activate");
 		}
 	}
 }
