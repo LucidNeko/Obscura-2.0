@@ -50,6 +50,8 @@ public class AlterScript : MonoBehaviour {
 
 			StartCoroutine(TransitionEnvironment(2.5f));
 			TransitionObjects(); 
+
+			Camera.main.transform.root.gameObject.GetComponent<AudioMusicScript>().changeTrack = true;
 		}
 	}
 

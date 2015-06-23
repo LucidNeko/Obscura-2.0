@@ -16108,6 +16108,22 @@ Prefab:
       propertyPath: m_RootOrder
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 11473770, guid: 743ed443af937694c9556a850415e92d, type: 2}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 8300000, guid: f7c4294df173149079262577eee74cd1, type: 3}
+    - target: {fileID: 11473770, guid: 743ed443af937694c9556a850415e92d, type: 2}
+      propertyPath: fadeTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11473770, guid: 743ed443af937694c9556a850415e92d, type: 2}
+      propertyPath: musicTrackSad
+      value: 
+      objectReference: {fileID: 8300000, guid: ae562bc5a560d40d69847c8fd9f8e24d, type: 3}
+    - target: {fileID: 11473770, guid: 743ed443af937694c9556a850415e92d, type: 2}
+      propertyPath: volume
+      value: .100000001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 743ed443af937694c9556a850415e92d, type: 2}
   m_IsPrefabParent: 0
@@ -21784,7 +21800,7 @@ Transform:
   - {fileID: 688390176}
   - {fileID: 1790266987}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
 --- !u!95 &1118943384
 Animator:
   serializedVersion: 3
@@ -29088,12 +29104,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 454576, guid: ce6997855734feb42b406a3bc52a74c5, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 11430310, guid: ce6997855734feb42b406a3bc52a74c5, type: 2}
-      propertyPath: pickupClip
-      value: 
-      objectReference: {fileID: 8300000, guid: d573b4247f3574e7fba635e509aba13a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce6997855734feb42b406a3bc52a74c5, type: 2}
   m_IsPrefabParent: 0
@@ -30724,7 +30736,7 @@ Transform:
   - {fileID: 228951909}
   - {fileID: 116529309}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 42
 --- !u!1 &1710640147
 GameObject:
   m_ObjectHideFlags: 0

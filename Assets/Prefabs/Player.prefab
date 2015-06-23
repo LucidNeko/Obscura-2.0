@@ -689,8 +689,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119794}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -.0120622944, y: -.877007127, z: .00994432531, w: .48022306}
+  m_LocalPosition: {x: 147.100006, y: .300000012, z: .689999998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 444890}
@@ -924,7 +924,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5b5eec63bb10d478c8995ef2ef51686b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: .0500000007
+  m_Volume: .0299999993
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1062,7 +1062,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5b5eec63bb10d478c8995ef2ef51686b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: .0500000007
+  m_Volume: .0299999993
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1178,6 +1178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf80ac92553c4eff9f0008d67c2e698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupClip: {fileID: 8300000, guid: d573b4247f3574e7fba635e509aba13a, type: 3}
+  pickupVolume: .400000006
   jumpClip: {fileID: 8300000, guid: 6d67a096bb7d74c44abb18cce13f8d0f, type: 3}
   jumpVolume: 0
   spinClip: {fileID: 8300000, guid: 06a651836d8f04b4e92772a8257d76e8, type: 3}
