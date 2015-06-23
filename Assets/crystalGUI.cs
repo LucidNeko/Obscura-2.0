@@ -12,6 +12,8 @@ public class crystalGUI : MonoBehaviour {
 
 	private CrystalPickup cpu;
 
+	public GUIStyle skin;
+
 	// Use this for initialization
 	void Start () {
 		cpu = GetComponent<CrystalPickup> ();
@@ -25,9 +27,19 @@ public class crystalGUI : MonoBehaviour {
 
 
 	void OnGUI() {
-		for (int i = 0; i < cpu.GetCrystalsCollected(); i++) {
-			GUI.DrawTexture (new Rect (x+(i*16), y, width, height), crystalImage);
+
+		int quantity = cpu.GetCrystalsCollected ();
+
+		if (quantity != 0) {
+
+			GUI.DrawTexture (new Rect (x, y, width, height), crystalImage);
+
+			GUI.Label (new Rect (x * 3, y*2, width, height), quantity.ToString(),skin);
 		}
+
+
+			
+
 	}
 
 }

@@ -5510,7 +5510,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 483668, guid: 1d50bc6702d1544cdb04f35f081be9c7, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d50bc6702d1544cdb04f35f081be9c7, type: 2}
@@ -10538,7 +10538,7 @@ Transform:
   - {fileID: 222445431}
   - {fileID: 2930693}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
 --- !u!95 &579984961
 Animator:
   serializedVersion: 3
