@@ -3,10 +3,11 @@ using System.Collections;
 
 public class PauseMenuScript : MonoBehaviour {
 
-	public Camera cam;
-	public GameObject canvas;
+	public Camera cam; // The main view camera
+	public GameObject canvas; // The pause menu canvas
 
-	Animator anim;
+	Animator anim; // The Animation controller for the canvas
+
 	bool paused = false;
 	bool main = false;
 	bool quit = false;
@@ -22,6 +23,7 @@ public class PauseMenuScript : MonoBehaviour {
 	}
 		
 		
+	// Handles display of the pause menu and stops all action in the scene
 	public void togglePause(){
 
 		if(paused)
@@ -31,8 +33,6 @@ public class PauseMenuScript : MonoBehaviour {
 			Time.timeScale = 1f;
 			paused = false;
 		}
-
-
 
 		else
 		{
@@ -45,17 +45,21 @@ public class PauseMenuScript : MonoBehaviour {
 	}
 
 
+	// Hides and shows the Main Menu option
 	public void showmainMenuOption(bool set){
 		main = set;
 		anim.SetBool("showMenuOption", set);
 	}
 
 
+	// Hides and shows the Quit option
 	public void showQuitOption(bool set){
 		quit = set;
 		anim.SetBool("showQuitOption", set);
 	}
 
+
+	// Handles a yes press if main or quit selected
 	public void yes(){
 		if(quit){
 			Debug.Log("Quit");
