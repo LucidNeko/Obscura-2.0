@@ -11,12 +11,12 @@ public class PlayerControls : MonoBehaviour {
 	}
 	
 	public void Die() {
-		transform.position = Checkpoint.LastCheckpoint.position;
+		transform.position = Checkpoint.LastCheckpoint;
 		StartCoroutine (Ouch (2,true));
 	}
 
 	public void WaterDie() {
-		transform.position = Checkpoint.LastCheckpoint.position;
+		transform.position = Checkpoint.LastCheckpoint;
 		StartCoroutine (Ouch (2,false));
 	}
 
