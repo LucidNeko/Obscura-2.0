@@ -18,7 +18,7 @@ public class PauseMenuScript : MonoBehaviour {
 		
 	void Update()
 	{
-		if(Input.GetButtonDown("escape"))
+		if(Input.GetButtonDown("Start"))
 			togglePause();
 	}
 		

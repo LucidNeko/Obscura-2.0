@@ -11,8 +11,10 @@ public class UIMessageScript : MonoBehaviour {
 	public GameObject panel; // Panel in UI canvas
 	public Text message;
 	public messageTypes messageType; // The selected message type
-	public string customMessage; // The text for the message if 'Custom' chosen
+	public string [] customMessages; // The text for the messages if 'Custom' chosen
 	public bool repeat; // Set to true in the inspector if the message should appear more than once
+
+	int customMessageNum; // Decides which message to display
 
 	Animator animator; // The animation controller attached to the panel
 	bool hasPlayed = false;
@@ -48,6 +50,13 @@ public class UIMessageScript : MonoBehaviour {
 		}
 	}
 
+	public void setMessageNum(int i){
+		if (i < customMessages.Length && i > 0) {
+			customMessageNum = i;
+		}
+	}
+
+
 
 	/**
 	 *  Sets the text depending on which message type selected in the inspector
@@ -57,24 +66,24 @@ public class UIMessageScript : MonoBehaviour {
 
 		switch (type) {
 		case messageTypes.Camera:
-			message.text = "Bla bla camera";
+			message.text = "Use the right analog stick to move the camera.";
 			break;
 
 		case messageTypes.Jump:
-			message.text = "Bla bla jump";
+			message.text = "Press 'X' to jump";
 			break;
 		
 		case messageTypes.Movement:
-			message.text = "Bla bla movement";
+			message.text = "Use left analog stick to move.";
 			break;
 	
 		case messageTypes.Spin:
-			message.text = "Bla bla spin";
+			message.text = "Press Square to glide";
 			break;
 
 		case messageTypes.Custom:
-			if(customMessage != null){
-				message.text = customMessage;
+			if(customMessages.Length > 0){
+				message.text = customMessages[customMessageNum];
 			}
 			break;
 		}
