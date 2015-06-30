@@ -345,7 +345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 8255814}
   musicTrackHappy: {fileID: 8300000, guid: 2275c790903f44d97862af47a5807a8e, type: 3}
-  musicTrackSad: {fileID: 8300000, guid: ae562bc5a560d40d69847c8fd9f8e24d, type: 3}
+  musicTrackSad: {fileID: 8300000, guid: 93e17b9ee675e4515a68807d199ba6d9, type: 3}
   fadeTime: 1
   volume: .100000001
   changeTrack: 0
